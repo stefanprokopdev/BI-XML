@@ -1,0 +1,803 @@
+element country { 
+	attribute iso-code { text },
+	element images {
+		element image {
+			attribute source { text },
+			attribute caption { text }?
+		}+
+	},
+	element background { text },
+	element geography {
+		attribute coordinate-s { text }?,
+		attribute coordinate-e { text }?,
+		attribute coordinate-w { text }?,
+		attribute coordinate-n { text }?,
+		element location {
+			attribute value { text }
+		},
+		element map-references {
+			attribute value { text }
+		},
+		element area {
+			attribute land { xsd:positiveInteger },
+			attribute water { xsd:positiveInteger },
+			attribute unit { ("sq km") },
+			attribute note { text }?
+		},
+		element area-comparative {
+			attribute value { text },
+			attribute area-comparison-map { text }
+		},
+		element land-boundaries {
+			element border-countries {
+				attribute unit { ("km") },
+				element state {
+					attribute name { text },
+					attribute total { xsd:positiveInteger }
+				}+
+			}
+		}?,
+		element coastline {
+			attribute value { text }
+		}?,
+		element maritime-claims {
+			attribute value { text }?,
+			attribute territorial-sea { xsd:positiveInteger },
+			attribute contiguous-zone { xsd:positiveInteger }?,
+			attribute exclusive-economic-zone { xsd:positiveInteger },
+			attribute unit { ("nm") },
+			attribute continental-shelf { text }?
+		},
+		element climate {
+			attribute value { text }
+		},
+		element terrain {
+			attribute value { text }
+		},
+		element elevation {
+			attribute mean-elevation { ("NA"|xsd:positiveInteger) },
+			attribute lowest-point { text },
+			attribute highest-point { text },
+			attribute unit { ("m") }
+		},
+		element natural-resources {
+			attribute value { text }
+		},
+		element land-use {
+			attribute arable-land { xsd:double },
+			attribute permanent-crops { xsd:double },
+			attribute permanent-pasture { xsd:double },
+			attribute forest { xsd:double },
+			attribute other { xsd:double },
+			attribute unit { ("%") }
+		},
+		element irrigated-land {
+			attribute value { text }
+		},
+		element population { text }?,
+		element natural-hazards {
+			attribute value { text },
+			element volcanism { text }?
+		},
+		element environment {
+			attribute current-issues { text },
+			attribute party-to { text },
+			attribute not-ratified { text }
+		},
+		element note { text }
+	},
+
+	element people-society {
+		element people { xsd:positiveInteger },
+		element nationality {
+			attribute noun { text },
+			attribute adjective { text }
+		},
+		element ethnic-groups {
+			element ethnic-group { attribute percentage {
+				xsd:double
+			}, text }+
+		},
+		element languages {
+			attribute note { text }?,
+			element language { text }+
+		},
+		element religions {
+			element religion { attribute percentage {
+				xsd:double
+			}, text }+
+		},
+		element demographic { text }?,
+		element age-structure {
+			attribute image { text },
+			attribute image-title { text },
+			element structure {
+				attribute percentage { xsd:double },
+				attribute structure { text },
+				attribute male { xsd:positiveInteger },
+				attribute female { xsd:positiveInteger }
+			}+
+		},
+		element dependency-ratios {
+			attribute unit { ("%") },
+			attribute youth { xsd:double },
+			attribute elderly { xsd:double },
+			attribute potential-support { xsd:double }
+		},
+		element median-age {
+			attribute unit { ("years") },
+			attribute male { xsd:double },
+			attribute female { xsd:double }
+		},
+		element population-growth-rate { text },
+		element birth-rate { text },
+		element death-rate { text },
+		element net-migration-rate { text },
+		element population-distribution { text }?,
+		element urbanization {
+			element urban-population { text },
+			element rate-of-urbanization { text }
+		},
+		element major-urban-areas {
+			attribute unit { ("million"|"k") },
+			element areas { attribute population {
+				xsd:double
+			}, text }+
+		},
+		element sex-ratio {
+			attribute total-population { ("1") },
+			attribute unit { ("male(s)/female") },
+			element ratio { attribute value {
+				xsd:double
+			}, text }+
+		},
+		element mothers-age-birth {
+			attribute age { xsd:double },
+			attribute note { text }?
+		}?,
+		element maternal-mortality-rate {
+			attribute value { text }
+		},
+		element infant-mortality-rate {
+			attribute unit { ("deaths/1,000 live births") },
+			attribute male { xsd:double },
+			attribute female { xsd:double }
+		},
+		element life-expectancy-at-birth {
+			attribute unit { ("years") },
+			attribute male { xsd:double },
+			attribute female { xsd:double }
+		},
+		element total-fertility-rate {
+			attribute value { text }
+		},
+		element contraceptive-rate {
+			attribute value { text }
+		}?,
+		element health-expenditures {
+			attribute value { text }
+		},
+		element physicians-density {
+			attribute value { text }
+		},
+		element hospital-bed-density {
+			attribute value { text }
+		},
+		element drinking-water-source {
+			attribute unit { ("% of population") },
+			element improved {
+				attribute urban { xsd:double },
+				attribute rural { xsd:double },
+				attribute total { xsd:double }
+			},
+			element unimproved {
+				attribute urban { xsd:double },
+				attribute rural { xsd:double },
+				attribute total { xsd:double }
+			}
+		},
+		element sanitation-facility-access {
+			attribute unit { ("% of population") },
+			element improve {
+				attribute urban { xsd:double },
+				attribute rural { xsd:double },
+				attribute total { xsd:double }
+			},
+			element unimprove {
+				attribute urban { xsd:double },
+				attribute rural { xsd:double },
+				attribute total { xsd:double }
+			}
+		},
+		element hiv-aids {
+			element rate {
+				attribute value { text }
+			},
+			element living-with {
+				attribute value { xsd:positiveInteger }
+			},
+			element deaths {
+				attribute value { xsd:positiveInteger }
+			}
+		},
+		element major-infections-deseases {
+			attribute degree-of-risk { text }?,
+			attribute note { text }?,
+			element desease { text }+
+		}?,
+		element obesity {
+			attribute percentage { xsd:double }
+		},
+		element children-underweight {
+			attribute description { ("under the age of 5 years") },
+			attribute percentage { xsd:double }
+		}?,
+		element education-expenditures {
+			attribute value { text }
+		},
+		element literacy {
+			attribute unit { ("%") },
+			attribute definition { ("age 15 and over can read and write") },
+			attribute male { xsd:double },
+			attribute female { xsd:double }
+		},
+		element school-life {
+			attribute unit { ("years") },
+			attribute description { ("primary to tertiary education") },
+			attribute male { xsd:positiveInteger },
+			attribute female { xsd:positiveInteger },
+			attribute total { xsd:double }
+		},
+		element child-labor {
+			attribute description { ("children ages 5-14") },
+			attribute value { xsd:positiveInteger },
+			attribute percentage { xsd:double },
+			attribute note { text }?
+		}?,
+		element unemployment {
+			attribute unit { ("%") },
+			attribute description { ("youth ages 15-24") },
+			attribute total { xsd:double },
+			attribute male { xsd:double },
+			attribute female { xsd:double }
+		}
+	},
+
+	element government {
+		attribute type { text },
+		element country-name {
+			attribute long-form { text },
+			attribute short-form { text },
+			attribute local-long-form { text },
+			attribute local-short-form { text },
+			attribute former { text }?,
+			attribute etymology { text }?,
+			attribute note { text }?
+		},
+		element capital {
+			attribute coordinate-s { text }?,
+			attribute coordinate-e { text }?,
+			attribute coordinate-n { text }?,
+			attribute coordinate-w { text }?,
+			attribute time { text },
+			attribute note { text }?,
+			attribute daylight { text }?,
+			text
+		},
+		element administrative-divisions {
+			attribute note { text }?,
+			text
+		},
+		element independence {
+			attribute date { text }
+		},
+		element national-holiday {
+			element holiday {
+				attribute date { text },
+				attribute name { text }
+			}+
+		},
+		element constitution { text },
+		element legal-system { text },
+		element international-law { text },
+		element citizenship {
+			attribute by-birth { ("yes"|"no") },
+			attribute by-descent-only { text },
+			attribute dual-citizenship-recognized { "yes"|"no"|"not specified" },
+			attribute residency-requirement-for-naturalization { text }
+		},
+		element suffrage { text },
+		element executive-branch {
+			element chief-of-state { attribute value { text } },
+			element head-of-government { attribute value { text } },
+			element cabinet { attribute value { text } },
+			element elections-appointments { attribute value { text } },
+			element election-results { attribute value { text } }
+		},
+		element legislative-branch {
+			element description { text },
+			element legislative-note { text }?,
+			element elections { text },
+			element election-result { text }
+		},
+		element judicial-branch {
+			element highest-court { text },
+			element judge-selection { text },
+			element subordinate-courts { text }
+		},
+		element political-parties {
+			element party {
+				attribute leader { text },
+				attribute name { text },
+				attribute short { text }?
+			}+
+		},
+		element political-pressure {
+			attribute other { text }?,
+			text
+		},
+		element international-participation-organization { text },
+		element diplomatic-representation {
+			element in-us {
+				attribute chief-of-commision { text },
+				attribute chancery { text },
+				attribute telephone { text },
+				attribute fax { text },
+				attribute consulate-general { text }?,
+				attribute consulates { text }?
+			},
+			element from-us {
+				attribute chief-of-commision { text },
+				attribute embassy { text },
+				attribute mailing-address { text },
+				attribute telephone { text },
+				attribute fax { text },
+				attribute consulate-general { text }?,
+				attribute consulate { text }?,
+				attribute consular-agency { text }?
+			}
+		},
+		element flag {
+			attribute description { text },
+			attribute note { text }?
+		},
+		element national-symbols {
+			attribute symbol { text },
+			attribute national-colors { text }
+		},
+		element national-anthem {
+			attribute name { text },
+			attribute lyrics { text },
+			attribute note { text }?,
+			attribute source { text }
+		}
+	},
+
+	element economy {
+		element overview { text },
+		element gdps {
+			attribute note { text }?,
+			attribute exchange-rate { text },
+			element gdp {
+				attribute to { xsd:positiveInteger },
+				attribute unit { ("$") },
+				attribute value { "million"|"billion"|"trillion" },
+				xsd:double
+			}+,
+			element real-growth-rate {
+				attribute unit { ("%") },
+				element growth-rate {
+					attribute to { xsd:positiveInteger },
+					xsd:double
+				}+
+			},
+			element per-capita {
+				attribute note { text }?,
+				attribute unit { ("$") },
+				element capita {
+					attribute to { xsd:positiveInteger },
+					xsd:positiveInteger
+				}+
+			},
+			element gross-national {
+				attribute unit { ("% of GDP") },
+				element gross {
+					attribute to { xsd:positiveInteger },
+					xsd:double
+				}+
+			},
+			element composition-end-use {
+				attribute unit { ("%") },
+				attribute household { xsd:double },
+				attribute government { xsd:double },
+				attribute investment-capital { xsd:double },
+				attribute investment-inventories { xsd:double },
+				attribute exports { xsd:double },
+				attribute imports { xsd:double }
+			},
+			element composition-end-sector {
+				attribute unit { ("%") },
+				attribute agriculture { xsd:double },
+				attribute industry { xsd:double },
+				attribute services { xsd:double }
+			}
+		},
+		element agriculture { attribute products { text } },
+		element industries { attribute value { text } },
+		element industrial-production { attribute rate { text } },
+		element labor-force {
+			attribute agriculture { xsd:double },
+			attribute unit { ("%") },
+			attribute industry { xsd:double },
+			attribute communication { xsd:double }?,
+			attribute services { xsd:double },
+			attribute trtade { xsd:double }?,
+			attribute finance { xsd:double }?,
+			attribute other { xsd:double }?,
+			text
+		},
+		element unemploy {
+			attribute unit { ("%") },
+			element u-rate {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element poverty-line {
+			attribute percentage { xsd:double },
+			attribute note { text }?
+		},
+		element household {
+			attribute lowest { (xsd:double|"NA") },
+			attribute highest { (xsd:double|"NA") },
+			attribute unit { ("%") }
+		},
+		element distribution-of-family {
+			element distribution {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element budget {
+			attribute surplus-deficit { text },
+			attribute revenues { text },
+			attribute expenditures { text }
+		},
+		element taxes { attribute value { text } },
+		element public-debt {
+			attribute unit { ("% of GDP") },
+			element debt {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element fiscal-year { attribute value { text } },
+		element inflation-rate {
+			attribute unit { ("%") },
+			element i-rate {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element bank-discount-rate {
+			attribute unit { ("%") },
+			attribute note { text }?,
+			element b-rate {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element bank-lending-rate {
+			attribute unit { ("%") },
+			attribute note { text }?,
+			element b-rate {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element stock-of-narrow-money {
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element stock-of-broad-money {
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element stock-of-domestic-credit {
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element market-value {
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element current-account {
+			attribute unit { ("$") },
+			attribute value { ("billion"|"million") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element exports {
+			attribute commodities { text },
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+,
+			element partners {
+				element partner {
+					attribute percentage { xsd:double },
+					text
+				}+
+			}
+		},
+		element imports {
+			attribute commodities { text },
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+,
+			element partners {
+				element partner {
+					attribute percentage { xsd:double },
+					text
+				}+
+			}
+		},
+		element reserves {
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element debt-external {
+			attribute unit { ("$") },
+			attribute value { ("billion") },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		},
+		element stock-of-investment {
+			attribute unit { ("$") }?,
+			attribute value { ("billion") }?,
+			element at-home {
+				element money {
+					attribute to { xsd:positiveInteger }?,
+					(xsd:double|"NA")
+				}+
+			},
+			element abroad {
+				element money {
+					attribute to { xsd:positiveInteger }?,
+					(xsd:double|"NA")
+				}+
+			}
+		},
+		element exchange-rates {
+			attribute description { text },
+			element money {
+				attribute to { xsd:positiveInteger },
+				xsd:double
+			}+
+		}
+	},
+
+	element energy {
+		element electricity {
+			element e-access {
+				attribute population-without { xsd:positiveInteger|"0" },
+				attribute total { text },
+				attribute urban-areas { text }?,
+				attribute rural-areas { text }?
+			},
+			element e-production {
+				attribute value { text }
+			},
+			element e-consuption {
+				attribute value { text }
+			},
+			element e-exports { attribute value { text } },
+			element e-imports { attribute value { text } },
+			element e-generating-capacity { attribute value { text } },
+			element e-fossil-fuels {
+				attribute percentage { xsd:double },
+				attribute note { text }?
+			},
+			element e-nuclear-fuels {
+				attribute value { xsd:double },
+				attribute unit { ("%") },
+				attribute note { text }?
+			}?,
+			element e-hydroelectric-plants {
+				attribute percentage { xsd:double },
+				attribute note { text }
+			}?,
+			element e-sources {
+				attribute percentage { xsd:double },
+				attribute note { text }
+			}
+		},
+		element crude-oil {
+			element e-production {
+				attribute value { text }
+			},
+			element e-exports {
+				attribute value { text }
+			},
+			element e-imports {
+				attribute value { text }
+			},
+			element e-proved-reserves {
+				attribute value { text }
+			}
+		},
+		element petroleum-products {
+			element e-production {
+				attribute value { text }
+			},
+			element e-consuption {
+				attribute value { text }
+			},
+			element e-exports {
+				attribute value { text }
+			},
+			element e-imports {
+				attribute value { text }
+			}
+		},
+		element natural-gas {
+			element e-production {
+				attribute value { text }
+			},
+			element e-consuption {
+				attribute value { text }
+			},
+			element e-exports {
+				attribute value { text }
+			},
+			element e-imports {
+				attribute value { text }
+			},
+			element e-proved-reserves {
+				attribute value { text }
+			}
+		},
+		element carbon-dioxide {
+			attribute value { text }
+		}
+	},
+
+	element communications {
+		element telephones {
+			element fixed { attribute total { text } },
+			element mobile { attribute total { text } },
+			element system {
+				element general-assessment { text },
+				element domestic { text },
+				element international { text }
+			}
+		},
+		element broadcast-media { text },
+		element internet {
+			attribute country-code { text },
+			element users {
+				attribute total { text },
+				attribute percentage { xsd:double }
+			}
+		}
+	},
+
+	element transportation {
+		element national-air {
+			attribute number-of-registered { xsd:positiveInteger },
+			attribute inventory-of-registered { xsd:positiveInteger },
+			attribute annual-passenger-traffic { xsd:positiveInteger },
+			attribute annual-freight-traffic { text }
+		},
+		element civil-aircraft { attribute country-coude-prefix { text } },
+		element airports {
+			element paved-runways {
+				element runway {
+					attribute description { text },
+					attribute value { xsd:positiveInteger }
+				}+
+			},
+			element unpaved-runways {
+				element runway {
+					attribute description { text },
+					attribute value { xsd:positiveInteger }
+				}+
+			}
+		},
+		element heliports { attribute value { xsd:positiveInteger } }?,
+		element pipelines { text }?,
+		element railways {
+			attribute narrow-gauge { text },
+			attribute note { text }?
+		}?,
+		element roadways {
+			attribute unit { ("km") },
+			attribute paved { xsd:positiveInteger },
+			attribute unpaved { xsd:positiveInteger }
+		}?,
+		element waterways {
+			attribute value { text },
+			attribute note { text }?
+		}?,
+		element merchant-marine {
+			element by-type { text },
+			element foreign-owned { text }?,
+			element registered-in-other-countries { text }?
+		},
+		element ports-terminals {
+			element major-seaports {
+				element seaport { text }+
+			},
+			element container-ports {
+				element port { attribute value { xsd:positiveInteger }, text }+
+			}?,
+			element oil-terminals {
+				element terminal { text }+
+			}?,
+			element lng-terminals-export {
+				element terminal { text }+
+			}?,
+			element lng-terminals-import {
+				element terminal { text }+
+			}?,
+			element cruise-ports {
+				element port { text }+
+			}?
+		},
+		element note { text }?
+	},
+
+	element military-security {
+		element branches { text },
+		element service-age { text }?,
+		element expenditures {
+			attribute unit { ("% of GDP") },
+			element expenditure {
+				attribute to { xsd:positiveInteger },
+				attribute value { xsd:double }
+			}+
+		}
+	},
+
+	element transnational-issues {
+		element disputes { text },
+		element refugees {
+			attribute idps { text },
+			attribute stateless-persons { xsd:positiveInteger }?
+		}?,
+		element trafficking {
+			element current-situation { text },
+			element tier-rating { text }
+		}?,
+		element illict-drugs { text} 
+	}
+}

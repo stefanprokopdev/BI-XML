@@ -1,0 +1,19 @@
+element country { 
+	attribute iso-code { text },
+	element images {
+		element image {
+			attribute source { text },
+			attribute caption { text }
+		}+
+	},
+	element background { text },
+	element geography {
+		attribute coordinate-s { text }?,
+		attribute coordinate-e { text }?,
+		attribute coordinate-w { text }?,
+		attribute coordinate-n { text }?,
+		element location {
+			attribute value { text }
+		},
+	}
+}

@@ -1,0 +1,270 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Indonesia | Age Structure</title>
+      <link rel="stylesheet" href="style/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style/css/bootstrap-theme.min.css"><script type="text/javascript" src="style/js/jquery-1.12.4.min.js"></script><script type="text/javascript" src="style/js/bootstrap.min.js"></script><script src="https://code.highcharts.com/highcharts.js"></script><script src="https://code.highcharts.com/modules/data.js"></script><script src="https://code.highcharts.com/modules/drilldown.js"></script><script>
+					$(function () {
+					    Highcharts.chart('container', {
+					        chart: {
+					            type: 'pie'
+					        },
+					        title: {
+					            text: 'Age Structure'
+					        },
+					        subtitle: {
+					            text: 'Vekove skupiny - v procentech'
+					        },
+					        plotOptions: {
+					            series: {
+					                dataLabels: {
+					                    enabled: true,
+					                    format: '{point.name}: {point.y:.1f}'
+					                }
+					            }
+					        },
+
+					        tooltip: {
+					            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+					            pointFormat: '<span style="color:">{point.name}</span>: <b>{point.y:.2f}</b> of total<br>'
+					        },
+					        series: [{
+					            name: 'Age Structure',
+					            colorByPoint: true,
+					            data: [
+					            
+			
+		{
+            name: '0-14',
+            y: 25.42
+        },
+	
+			
+		{
+            name: '15-24',
+            y: 17.03
+        },
+	
+			
+		{
+            name: '25-54',
+            y: 42.35
+        },
+	
+			
+		{
+            name: '55-64',
+            y: 8.4
+        },
+	
+			
+		{
+            name: '65-over',
+            y: 6.79
+        },
+	
+		
+					            ]
+					        }]
+					    });
+
+					    Highcharts.chart('female', {
+					        chart: {
+					            type: 'column'
+					        },
+					        title: {
+					            text: 'Age Structure - Female'
+					        },
+					        subtitle: {
+					            text: 'Vekove skupiny - zeny - pocet zen ve vekove skupine'
+					        },
+					        xAxis: {
+					            type: 'category'
+					        },
+					        yAxis: {
+					            title: {
+					                text: 'Pocet zen ve vekove kategorii'
+					            }
+
+					        },
+					        legend: {
+					            enabled: false
+					        },
+					        plotOptions: {
+					            series: {
+					                borderWidth: 0,
+					                dataLabels: {
+					                    enabled: true,
+					                    format: '{point.y:.1f}'
+					                }
+					            }
+					        },
+
+					        tooltip: {
+					            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+					            pointFormat: '<span style="color:">{point.name}</span>: <b>{point.y:.2f}</b> of total<br>'
+					        },
+
+					        series: [{
+					            name: 'Age Structure - Female',
+					            colorByPoint: true,
+					            data: [
+					            
+			
+		{
+            name: '0-14',
+            y: 21604985
+        },
+	
+			
+		{
+            name: '15-24',
+            y: 32224706
+        },
+	
+			
+		{
+            name: '25-54',
+            y: 53543682
+        },
+	
+			
+		{
+            name: '55-64',
+            y: 11790016
+        },
+	
+			
+		{
+            name: '65-over',
+            y: 9913993
+        },
+	
+		
+					            ]
+					        }],
+					    });
+
+						Highcharts.chart('male', {
+					        chart: {
+					            type: 'column'
+					        },
+					        title: {
+					            text: 'Age Structure - Male'
+					        },
+					        subtitle: {
+					            text: 'Vekove skupiny - muzi - pocet muzu ve vekove skupine'
+					        },
+					        xAxis: {
+					            type: 'category'
+					        },
+					        yAxis: {
+					            title: {
+					                text: 'Pocet muzu ve vekove kategorii'
+					            }
+
+					        },
+					        legend: {
+					            enabled: false
+					        },
+					        plotOptions: {
+					            series: {
+					                borderWidth: 0,
+					                dataLabels: {
+					                    enabled: true,
+					                    format: '{point.y:.1f}'
+					                }
+					            }
+					        },
+
+					        tooltip: {
+					            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+					            pointFormat: '<span style="color:">{point.name}</span>: <b>{point.y:.2f}</b> of total<br>'
+					        },
+
+					        series: [{
+					            name: 'Age Structure - Male',
+					            colorByPoint: true,
+					            data: [
+					            
+			
+		{
+            name: '0-14',
+            y: 22397086
+        },
+	
+			
+		{
+            name: '15-24',
+            y: 33435020
+        },
+	
+			
+		{
+            name: '25-54',
+            y: 55857415
+        },
+	
+			
+		{
+            name: '55-64',
+            y: 9918897
+        },
+	
+			
+		{
+            name: '65-over',
+            y: 7630251
+        },
+	
+		
+					            ]
+					        }],
+			    		});
+					});
+				</script></head>
+   <body>
+      <div class="container">
+         <nav class="navbar navbar-inverse navbar-fixed-top" style="background: #4caf50; color: white;">
+            <div class="container-fluid">
+               <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a style="color: white;" class="navbar-brand" href="id.html"><b>Indonesia</b></a></div>
+               <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-left">
+                     <li><a style="color: white;" href="index.html">index</a></li>
+                     	
+                     <li><a style="color: white;" href="id-images.html">images</a></li>
+                     	
+                     <li><a style="color: white;" href="id-background.html">background</a></li>
+                     
+                     	
+                     <li><a style="color: white;" href="id-geography.html">geography</a></li>
+                     	
+                     <li><a style="color: white;" href="id-people-society.html">people-society</a></li>
+                     	
+                     <li><a style="color: white;" href="id-government.html">government</a></li>
+                     	
+                     <li><a style="color: white;" href="id-economy.html">economy</a></li>
+                     	
+                     <li><a style="color: white;" href="id-energy.html">energy</a></li>
+                     	
+                     <li><a style="color: white;" href="id-communications.html">communications</a></li>
+                     	
+                     <li><a style="color: white;" href="id-transportation.html">transportation</a></li>
+                     	
+                     <li><a style="color: white;" href="id-military-security.html">military-security</a></li>
+                     	
+                     <li><a style="color: white;" href="id-transnational-issues.html">transnational-issues</a></li>
+                     
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <h1 style="margin-top: 65px;">Age Structure - Chart</h1><a href="id-people-society.html"><span class="glyphicon glyphicon-chevron-left"></span> Go Back</a><br><br><div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div><br><br><div id="male" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div><br><br><div id="female" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+         <h1>Median Age</h1>
+         <ul>
+            <li>Male - 29.3&nbsp;years years years</li>
+            <li>Female - 30.5&nbsp;years years years</li>
+         </ul>
+      </div>
+   </body>
+</html>

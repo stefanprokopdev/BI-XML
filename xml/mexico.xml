@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<country iso-code="mx">
+	<images>
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/mx-lgflag.gif" caption="three equal vertical bands of green (hoist side), white, and red; Mexico's coat of arms (an eagle with a snake in its beak perched on a cactus) is centered in the white band; green signifies hope, joy, and love; white represents peace and honesty; red stands for hardiness, bravery, strength, and valor; the coat of arms is derived from a legend that the wandering Aztec people were to settle at a location where they would see an eagle on a cactus eating a snake; the city they founded, Tenochtitlan, is now Mexico City" />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/noa/mx_large_locator.gif" />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_007.jpg" caption="Satellite radar topography image of a portion of Central America. Due to persistent cloud cover, obtaining conventional high-altitude photos of this region is extrordinarily difficult. Radar's ability to penetrate clouds and make 3-D measurements allowed scientists to generate the first complete high-resolution topographic map of the entire region. All of Guatemala, Belize, El Salvador, and Honduras are visible on this image, as well as a considerable portion of southern Mexico (the Yucatan Peninsula). Image courtesy of NASA/JPL/NGA." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_011.jpg" caption="Named after the ancient Maya Province of Kimpech, the state of Campeche comprises much of the western half of Mexico's Yucatan Peninsula. Rivers in southern Campeche drain into the immense Terminos Lagoon, the entrance to which is protected by a long barrier island, Isla Del Carmen (upper right). In this false-color satellite image the green jungle canopy shows up as bright red. Image courtesy of USGS." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_010.jpg" caption="Snow-capped Colima Volcano, the most active volcano in Mexico, rises abruptly from the surrounding landscape in the state of Jalisco in the center of this false-color satellite image. Part of the trans-Mexican volcanic belt, Colima is actually a melding of two volcanoes, the older Nevado de Colima to the north and the younger, historically active Volcan de Colima to the south. Approximately 300,000 people live within 40 km (25 mi) of the volcano earning it designation as a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior. Legend has it that gods sit atop the volcano on thrones of fire and ice. For other active volcanoes in Mexico, see the Natural hazards-volcanism subfield in the Geography section. Image courtesy of USGS." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_009.jpg" caption="The pockmarked terrain of Pinacate National Park in Sonora province, shown in this enhanced satellite image, provides evidence of a violent geologic past. Among hundreds of volcanic vents and cinder cones are rare maar craters, formed when rising magma met underground water to create pockets of steam that blew nearly circular holes in the overlying crust. American astronauts used this area in 1965-70 to train for lunar excursions; surrounding the region are the vast sand dune fields of Gran Desierto de Altar. Image courtesy of USGS." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_008.jpg" caption="This high-resolution satellite image shows part of the Sierra Madre Oriental mountain range, on the border between the Coahuila and Nuevo Leon provinces of eastern Mexico. This range is part of the Sierra Madre Mountains that divide Mexico, and which also include the Sierra Madre Occidental on the West coast and the Sierra Madre del Sur in southern Mexico. In the area shown, ancient sedimentary rocks were folded as a result of a tectonic collision that some geologists consider related to the Appalachian folding of eastern North America. This mountain range is drier than the rainforest areas to the south. Image courtesy of USGS." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_012.jpg" caption="The snow and ice-clad peak of Pico de Orizaba (also known as Citlaltepetl) boasts a summit elevation of 5,675 m (18,619 ft) above sea level, making it the highest peak in Mexico and North America's highest volcano. It is also one of three volcanic peaks in Mexico - together with Popocatepetl and Iztaccihuatl - that retain summit glaciers. Pico de Orizaba is part of the Trans-Mexican Volcanic Belt that extends roughly east-west across Mexico. The last recorded eruption took place in 1846; while the volcano is considered dormant at present, geologists continue to investigate the potential hazards associated with a renewal of activity. Shadows accentuate several features of the Pico de Orizaba stratovolcano visible in this photograph from the International Space Station. The 300-meter-deep summit crater is clearly visible against surrounding ice and snow cover at center. Several lava flows extend down the flanks of the volcano, made readily visible by prominent cooling ridges along their sides known as flow levees. One of the most clearly visible examples is located on the southwest flank of the cone. The extinct Sierra Negra volcano to the southwest has a summit elevation of 4,640 m (15,223 ft) above sea level; while not as lofty as Pico de Orizaba, it is also one of Mexico?s highest peaks. Image courtesy of NASA." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_006.jpg" caption="The Catedral Metropolitana de la Asuncion de Maria (Metropolitan Cathedral of the Assumption of Mary) on the Zocalo (main square) in Mexico City." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_005.jpg" caption="One of the smaller step pyramids at the massive archaeological site of Teotihuacan (approximately 40 km or 25 mi northeast of Mexico City)." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_015.JPG" caption="A large pier at Puerto Costa Maya on the Caribbean Sea in the state of Quintana Roo. The port was built to accommodate cruise ships in order to develop tourism in this area of Mexico." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_004.JPG" caption="Beach resort at Costa Maya in the state of Quintana Roo." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_003.JPG" caption="A Chacchoben Maya temple pyramid dating to about AD 700; it was originally painted red and yellow. To date, three pyramids at the site have been excavated and restored." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_014.JPG" caption="A temple pyramid at Chacchoben, a Maya site dating back some 1,300 years. Clearing of the site began with its discovery in 1972; it is about a one hour ride from Costa Maya." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_013.JPG" caption="A temple pyramid at Chacchoben, a Maya site dating back about 1,300 years. Clearing of the site began with its discovery in 1972; it is about a one hour ride from Costa Maya." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_002.JPG" caption="Excavated Maya walls at Chacchoben." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_001.JPG" caption="Traces of red paint still visible on Maya carving at Chacchoben." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_023.JPG" caption="Sailing ship at Puerta Maya, Cozumel Island. Cozumel lies off the coast of the Yucatan Peninsula not far across a channel from the city of Cancun. It is Mexico's largest island and is about 50 km (30 mi) long and 15 km (9 mi) wide." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_019.JPG" caption="Waterfront view at Puerta Maya, Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_018.JPG" caption="Waterfront view at Puerta Maya, Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_017.JPG" caption="Giant flag of Mexico flies over the waterfront at Puerta Maya, Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_016.JPG" caption="Shoreline along the northern coast of Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_022.JPG" caption="Performance of a traditional ceremony from central Mexico at Discover Mexico Park on Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_021.JPG" caption="Performance of a traditional ceremony from central Mexico at Discover Mexico Park on Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_020.JPG" caption="Performance of a traditional ceremony from central Mexico at Discover Mexico Park on Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mx/images/MX_024.JPG" caption="Snarling jaguar at an exhibit featuring local artisans at Discover Mexico Park on Cozumel Island." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/mx-map.gif" />
+	</images>
+
+	<background>
+		The site of several advanced Amerindian civilizations - including the Olmec, Toltec, Teotihuacan, Zapotec, Maya, and Aztec - Mexico was conquered and colonized by Spain in the early 16th century. Administered as the Viceroyalty of New Spain for three centuries, it achieved independence early in the 19th century. Elections held in 2000 marked the first time since the 1910 Mexican Revolution that an opposition candidate - Vicente FOX of the National Action Party (PAN) - defeated the party in government, the Institutional Revolutionary Party (PRI). He was succeeded in 2006 by another PAN candidate Felipe CALDERON, but Enrique PENA NIETO regained the presidency for the PRI in 2012. The global financial crisis in late 2008 caused a massive economic downturn in Mexico the following year, although growth returned quickly in 2010. Ongoing economic and social concerns include low real wages, high underemployment, inequitable income distribution, and few advancement opportunities for the largely indigenous population in the impoverished southern states. Since 2007, Mexico's powerful drug-trafficking organizations have engaged in bloody feuding, resulting in tens of thousands of drug-related homicides.
+	</background>
+	<geography coordinate-n="23 00" coordinate-w="102 00">
+		<location value="North America, bordering the Caribbean Sea and the Gulf of Mexico, between Belize and the United States and bordering the North Pacific Ocean, between Guatemala and the United States" />
+		<map-references value="North America" />
+		<area land="1943945" water="20430" unit="sq km" />
+		<area-comparative value="slightly less than three times the size of Texas" area-comparison-map="https://www.cia.gov/library/publications/the-world-factbook/graphics/areacomparison/MX_area.jpg" />
+		<land-boundaries>
+			<border-countries unit="km">
+				<state name="Belize" total="276" />
+				<state name="Guatemala" total="958" />
+				<state name="US" total="3155" />
+			</border-countries>
+		</land-boundaries>
+		<coastline value="9330 km" />
+		<maritime-claims territorial-sea="12" contiguous-zone="24" exclusive-economic-zone="200" unit="nm" continental-shelf="200 nm or to the edge of the continental margin" />
+		<climate value="varies from tropical to desert" />
+		<terrain value="high, rugged mountains; low coastal plains; high plateaus; desert" />
+		<elevation mean-elevation="1111" lowest-point="Laguna Salada, -10" highest-point="Volcan Pico de Orizaba, 5,675" unit="m" />
+		<natural-resources value="petroleum, silver, copper, gold, lead, zinc, natural gas, timber" />
+		<land-use arable-land="11.8" permanent-crops="1.4" permanent-pasture="41.7" forest="33.3" other="11.8" unit="%" />
+		<irrigated-land value="65,000 sq km" />
+		<population>
+			most of the population is found in the middle of the country between the states of Jalisco and Veracruz; approximately a quarter of the population lives in and around Mexico City
+		</population>
+		<natural-hazards value="tsunamis along the Pacific coast, volcanoes and destructive earthquakes in the center and south, and hurricanes on the Pacific, Gulf of Mexico, and Caribbean coasts">
+			<volcanism>
+				volcanic activity in the central-southern part of the country; the volcanoes in Baja California are mostly dormant; Colima (elev. 3,850 m), which erupted in 2010, is Mexico's most active volcano and is responsible for causing periodic evacuations of nearby villagers; it has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; Popocatepetl (elev. 5,426 m) poses a threat to Mexico City; other historically active volcanoes include Barcena, Ceboruco, El Chichon, Michoacan-Guanajuato, Pico de Orizaba, San Martin, Socorro, and Tacana
+			</volcanism>
+		</natural-hazards>
+		<environment current-issues="scarcity of hazardous waste disposal facilities; rural to urban migration; natural freshwater resources scarce and polluted in north, inaccessible and poor quality in center and extreme southeast; raw sewage and industrial effluents polluting rivers in urban areas; deforestation; widespread erosion; desertification; deteriorating agricultural lands; serious air and water pollution in the national capital and urban centers along US-Mexico border; land subsidence in Valley of Mexico caused by groundwater depletion" party-to="Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling" not-ratified="none of the selected agreements" />
+		<note>
+			strategic location on southern border of US; corn (maize), one of the world's major grain crops, is thought to have originated in Mexico
+		</note>
+	</geography>
+	<people-society>
+		<people>123166749</people>
+		<nationality noun="Mexican(s)" adjective="Mexican" />
+		<ethnic-groups>
+			<ethnic-group percentage="62">mestizo (Amerindian-Spanish)</ethnic-group>
+			<ethnic-group percentage="21">predominantly Amerindian</ethnic-group>
+			<ethnic-group percentage="7">Amerindian</ethnic-group>
+			<ethnic-group percentage="10">Other (mostly European)</ethnic-group>
+		</ethnic-groups>
+		<languages note="indigenous languages include various Mayan, Nahuatl, and other regional languages">
+			<language>
+				Spanish only
+			</language>
+			<language>
+				Spanish and indigenous languages
+			</language>
+			<language>
+				indigenous only
+			</language>
+			<language>
+				unspecified
+			</language>
+		</languages>
+		<religions>
+			<religion percentage="82.7">Roman Catholic</religion>
+			<religion percentage="1.6">Pentecostal</religion>
+			<religion percentage="1.4">Jehovahs Witness</religion>
+			<religion percentage="5">Other Evangelical Churches</religion>
+			<religion percentage="1.9">Other</religion>
+			<religion percentage="4.7">None</religion>
+			<religion percentage="0.4">unspecified</religion>
+		</religions>
+		<age-structure image="https://www.cia.gov/library/publications/the-world-factbook/graphics/population/MX_popgraph%202016.bmp" image-title="Population pyramid">
+			<structure structure="0-14" percentage="27.26" male="17167636" female="16402301" />
+			<structure structure="15-24" percentage="17.72" male="11049818" female="10770843" />
+			<structure structure="25-54" percentage="40.69" male="24174900" female="25938909" />
+			<structure structure="55-64" percentage="7.41" male="4187644" female="4944802" />
+			<structure structure="65-over" percentage="6.93" male="3827870" female="4702026" />
+		</age-structure>
+		<dependency-ratios unit="%" youth="41.9" elderly="9.8" potential-support="10.2" />
+		<median-age male="26.9" female="29.1" unit="years" />
+		<population-growth-rate>
+			1.15%
+		</population-growth-rate>
+		<birth-rate>
+			18.5 births/1,000 population
+		</birth-rate>
+		<death-rate>
+			5.3 deaths/1,000 population
+		</death-rate>
+		<net-migration-rate>
+			-1.7 migrant(s)/1,000 population
+		</net-migration-rate>
+		<population-distribution>
+			most of the population is found in the middle of the country between the states of Jalisco and Veracruz; approximately a quarter of the population lives in and around Mexico City
+		</population-distribution>
+		<urbanization>
+			<urban-population>
+				79.2% of total population
+			</urban-population>
+			<rate-of-urbanization>
+				1.57% annual rate of change
+			</rate-of-urbanization>
+		</urbanization>
+		<major-urban-areas unit="million">
+			<areas population="20.999">MEXICO CITY (capital)</areas>
+			<areas population="4.843">Guadalajara</areas>
+			<areas population="4.513">Monterrey</areas>
+			<areas population="2.984">Puebla</areas>
+			<areas population="2.164">Toluca de Lerdo</areas>
+			<areas population="1.987">Tijuana</areas>
+		</major-urban-areas>
+		<sex-ratio total-population="1" unit="male(s)/female">
+			<ratio value="1.05">
+				at birth
+			</ratio>
+			<ratio value="1.05">
+				0-14
+			</ratio>
+			<ratio value="1.03">
+				15-24
+			</ratio>
+			<ratio value="0.93">
+				25-54
+			</ratio>
+			<ratio value="0.85">
+				55-64
+			</ratio>
+			<ratio value="0.82">
+				65-over
+			</ratio>
+		</sex-ratio>
+		<mothers-age-birth age="21.3" />
+		<maternal-mortality-rate value="38 deaths/100,000 live births" />
+		<infant-mortality-rate unit="deaths/1,000 live births" male="13.3" female="10.4" />
+		<life-expectancy-at-birth unit="years" male="73.1" female="78.8" />
+		<total-fertility-rate value="2.25 children born/woman" />
+		<contraceptive-rate value="72.5%" />
+		<health-expenditures value="6.3% of GDP" />
+		<physicians-density value="2.1 physicians/1,000 population" />
+		<hospital-bed-density value="1.5 beds/1,000 population" />
+		<drinking-water-source unit="% of population">
+			<improved urban="97.2" rural="92.1" total="96.1" />
+			<unimproved urban="2.8" rural="7.9" total="3.9" />
+		</drinking-water-source>
+		<sanitation-facility-access unit="% of population">
+			<improve urban="88" rural="74.5" total="85.2" />
+			<unimprove urban="12" rural="25.5" total="14.8" />
+		</sanitation-facility-access>
+		<hiv-aids>
+			<rate value="0.24%" />
+			<living-with value="198200" />
+			<deaths value="4000" />
+		</hiv-aids>
+		<major-infections-deseases degree-of-risk="intermediate" note="active local transmission of Zika virus by Aedes species mosquitoes has been identified in this country (as of August 2016); it poses an important risk (a large number of cases possible) among US citizens if bitten by an infective mosquito; other less common ways to get Zika are through sex, via blood transfusion, or during pregnancy, in which the pregnant woman passes Zika virus to her fetus">
+			<desease>bacterial diarrhea</desease>
+			<desease>hepatitis A</desease>
+			<desease>dengue fever</desease>
+		</major-infections-deseases>
+		<obesity percentage="27.6" />
+		<children-underweight description="under the age of 5 years" percentage="2.8" />
+		<education-expenditures value="5.2% of GDP" />
+		<literacy unit="%" definition="age 15 and over can read and write" male="96.2" female="94.2" />
+		<school-life unit="years" total="13" male="13" female="13" description="primary to tertiary education" />
+		<child-labor description="children ages 5-14" value="1105617" percentage="5" note="data represent children ages 5-14" />
+		<unemployment description="youth ages 15-24" unit="%" total="9.6" male="9.2" female="10.3" />
+	</people-society>
+	<government type="federal presidential republic">
+		<country-name long-form="United Mexican States" short-form="Mexico" local-long-form="Estados Unidos Mexicanos" local-short-form="Mexico" etymology='named after the Mexica, the largest and most powerful branch of the Aztecs; the meaning of the name is uncertain' />
+		<capital coordinate-n="19 26" coordinate-w="99 08" time="UTC-6" note="Mexico has four time zones" daylight="+1hr, begins first Sunday in April; ends last Sunday in October">
+			Mexico City (Ciudad de Mexico)
+		</capital>
+		<administrative-divisions>
+			31 states (estados, singular - estado) and 1 city* (ciudad); Aguascalientes, Baja California, Baja California Sur, Campeche, Chiapas, Chihuahua, Coahuila de Zaragoza, Colima, Cuidad de Mexico*, Durango, Guanajuato, Guerrero, Hidalgo, Jalisco, Mexico, Michoacan de Ocampo, Morelos, Nayarit, Nuevo Leon, Oaxaca, Puebla, Queretaro, Quintana Roo, San Luis Potosi, Sinaloa, Sonora, Tabasco, Tamaulipas, Tlaxcala, Veracruz de Ignacio de la Llave (Veracruz), Yucatan, Zacatecas
+		</administrative-divisions>
+		<independence date="16 September 1810" />
+		<national-holiday>
+			<holiday date="16 September" name="Independence Day" />
+		</national-holiday>
+		<constitution>
+			several previous; latest approved 5 February 1917; amended many times, last in 2015
+		</constitution>
+		<legal-system>
+			civil law system with US constitutional law influence; judicial review of legislative acts
+		</legal-system>
+		<international-law>
+			accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction
+		</international-law>
+		<citizenship by-birth="yes" by-descent-only="yes" dual-citizenship-recognized="not specified" residency-requirement-for-naturalization="5 years" />
+		<suffrage>
+			18 years of age; universal and compulsory
+		</suffrage>
+		<executive-branch>
+			<chief-of-state value="President Enrique PENA NIETO (since 1 December 2012); note - the president is both chief of state and head of government" />
+			<head-of-government value="President Enrique PENA NIETO (since 1 December 2012)" />
+			<cabinet value="Cabinet appointed by the president; note - appointment of attorney general, the head of the Bank of Mexico, and senior treasury officials require consent of the Senate" />
+			<elections-appointments value="president directly elected by simple majority popular vote for a single 6-year term; election last held on 1 July 2012 (next to be held in July 2018)" />
+			<election-results value="Enrique PENA NIETO elected president; percent of vote - Enrique PENA NIETO (PRI) 38.2%, Andres Manuel LOPEZ OBRADOR (PRD) 31.6%, Josefina Eugenia VAZQUEZ Mota (PAN) 25.4%, other 4.8%" />
+		</executive-branch>
+		<legislative-branch>
+			<description>
+				bicameral National Congress or Congreso de la Union consists of the Senate or Camara de Senadores (128 seats; 96 members directly elected in multi-seat constituencies by simple majority vote and 32 directly elected in a single, nationwide constituency by proportional representation vote; members serve 6-year terms) and the Chamber of Deputies or Camara de Diputados (500 seats; 300 members directly elected in single-seat constituencies by simple majority vote and 200 directly elected in a single, nationwide constituency by proportional representation vote; members serve 3-year terms)
+			</description>
+			<elections>
+				Senate - last held on 1 July 2012 for all of the seats (next to be held 1 July 2018); Chamber of Deputies - last held on 7 June 2015 (next to be held on 1 July 2018)
+			</elections>
+			<election-result>
+				Senate - percent of vote by party - NA; seats by party - PRI 52, PAN 38, PRD 22, PVEM 9, PT 4, Movimiento Ciudadano 2, PANAL 1; Chamber of Deputies - percent of vote by party - NA; seats by party - PRI 203, PAN 108, PRD 56, PVEM 47, MORENA 35, MC 26, PNA/PANAL 10, PES 8, PT 6, independent 1
+			</election-result>
+		</legislative-branch>
+		<judicial-branch>
+			<highest-court>
+				Supreme Court of Justice or Suprema Corte de Justicia de la Nacion (consists of the chief justice and 11 justices and organized into civil, criminal, administrative, and labor panels) and the Electoral Tribunal of the Federal Judiciary (organized into the superior court, with 7 judges including the court president and 5 regional courts, each with 3 judges)
+			</highest-court>
+			<judge-selection>
+				Supreme Court justices nominated by the president of the republic and approved by two-thirds vote of the members present in the Senate; justices serve for life; Electoral Tribunal superior and regional court judges nominated by the Supreme Court and elected by two-thirds vote of members present in the Senate; superior court president elected from among its members to hold office for a 4-year term; other judges of the superior and regional courts serve staggered, 9-year terms
+			</judge-selection>
+			<subordinate-courts>federal level includes circuit, collegiate, and unitary courts; state and district level courts</subordinate-courts>
+		</judicial-branch>
+		<political-parties>
+			<party leader="Dante DELGADO Rannaoro" name="Citizen's Movement" short="MC" />
+			<party leader="Cesar CAMACHO Quiroz" name="Institutional Revolutionary Party" short="PRI" />
+			<party leader="Alberto ANAYA Gutierrez" name="Labor Party" short="PT" />
+			<party leader="orge Emilio GONZALEZ Torres" name="Mexican Green Ecological Party" short="PVEM" />
+			<party leader="Marti BATRES" name="Movement for National Regeneration" short="MORENA" />
+			<party leader="Gustavo MADERO Munoz" name="National Action Party" short="PAN" />
+			<party leader="Luis CASTRO Obregon" name="New Alliance Party" short="PNA/PANAL" />
+			<party leader="Jesus ZAMBRANO Grijalva" name="Party of the Democratic Revolution" short="PRD" />
+			<party leader="Hugo Eric FLORES Cervantes" name="Social Encounter Party" short="PES" />
+		</political-parties>
+		<political-pressure>
+			Businessmen's Coordinating Council or CCE
+			Confederation of Employers of the Mexican Republic or COPARMEX
+			Confederation of Industrial Chambers or CONCAMIN
+			Confederation of Mexican Workers or CTM
+			Confederation of National Chambers of Commerce or CONCANACO
+			Coordinator for Foreign Trade Business Organizations or COECE
+			Federation of Unions Providing Goods and Services or FESEBES
+			National Chamber of Transformation Industries or CANACINTRA
+			National Confederation of Popular Organizations or CNOP
+			National Coordinator for Education Workers or CNTE
+			National Peasant Confederation or CNC
+			National Small Business Chamber or CANACOPE
+			National Syndicate of Education Workers or SNTE
+			National Union of Workers or UNT
+			Popular Assembly of the People of Oaxaca or APPO
+			Roman Catholic Church
+		</political-pressure>
+		<international-participation-organization>
+			APEC, Australia Group, BCIE, BIS, CAN (observer), Caricom (observer), CD, CDB, CE (observer), CELAC, CSN (observer), EBRD, FAO, FATF, G-3, G-15, G-20, G-24, G-5, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, MIGA, NAFTA, NAM (observer), NEA, NSG, OAS, OECD, OPANAL, OPCW, Pacific Alliance, Paris Club (associate), PCA, SICA (observer), UN, UNASUR (observer), UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina (observer), UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO
+		</international-participation-organization>
+		<diplomatic-representation>
+			<in-us chief-of-commision="Ambassador Carlos Manuel SADA Solana" chancery="1911 Pennsylvania Avenue NW, Washington, DC 20006" telephone="[1] (202) 728-1600" fax="[1] (202) 728-1698" consulate-general="Atlanta, Austin, Boston, Chicago, Dallas, Denver, El Paso (TX), Houston, Laredo (TX), Los Angeles, Miami, New York, Nogales (AZ), Phoenix, Sacramento (CA), San Antonio (TX), San Diego, San Francisco, San Jose (CA), San Juan (Puerto Rico), Saint Paul (MN)" consulates="Albuquerque (NM), Anchorage (AK), Boise (ID), Brownsville (TX), Calexico (CA), Del Rio (TX), Detroit, Douglas (AZ), Eagle Pass (TX), Fresno (CA), Indianapolis (IN), Kansas City (MO), Las Vegas (NV), Little Rock (AR), McAllen (TX), Minneapolis (MN), New Orleans, Omaha (NE), Orlando (FL), Oxnard (CA), Philadelphia, Portland (OR), Presidio (TX), Raleigh (NC), Salt Lake City, San Bernardino (CA), Santa Ana (CA), Seattle, Tucson (AZ), Yuma (AZ); note - Washington DC Consular Section is located in a separate building from the Mexican Embassy and has jurisdiction over DC, parts of Virginia, Maryland, and West Virginia" />
+			<from-us chief-of-commision="Ambassador Roberta JACOBSON" embassy="Paseo de la Reforma 305, Colonia Cuauhtemoc, 06500 Mexico, Distrito Federal" mailing-address="P. O. Box 9000, Brownsville, TX 78520-9000" telephone="[52] (55) 5080-2000" fax="[52] (55) 5080-2834" consulate-general="Ciudad Juarez, Guadalajara, Hermosillo, Matamoros, Merida, Monterrey, Nogales, Nuevo Laredo, Tijuana" />
+		</diplomatic-representation>
+		<flag description="three equal vertical bands of green (hoist side), white, and red; Mexico's coat of arms (an eagle with a snake in its beak perched on a cactus) is centered in the white band; green signifies hope, joy, and love; white represents peace and honesty; red stands for hardiness, bravery, strength, and valor; the coat of arms is derived from a legend that the wandering Aztec people were to settle at a location where they would see an eagle on a cactus eating a snake; the city they founded, Tenochtitlan, is now Mexico City" note="similar to the flag of Italy, which is shorter, uses lighter shades of red and green, and does not display anything in its white band" />
+		<national-symbols symbol="golden eagle" national-colors="green, white, red" />
+		<national-anthem name='"Himno Nacional Mexicano" (National Anthem of Mexico)' lyrics='Francisco Gonzalez BOCANEGRA/Jaime Nuno ROCA" note="adopted 1943, in use since 1854; also known as "Mexicanos, al grito de Guerra" (Mexicans, to the War Cry); according to tradition, Francisco Gonzalez BOCANEGRA, an accomplished poet, was uninterested in submitting lyrics to a national anthem contest; his fiancee locked him in a room and refused to release him until the lyrics were completed' source="https://www.cia.gov/library/publications/the-world-factbook/anthems/MX.mp3" />
+	</government>
+	<economy>
+		<overview>
+			Mexico's $2.2 trillion economy has become increasingly oriented toward manufacturing in the 22 years since the North American Free Trade Agreement (NAFTA) entered into force. Per capita income is roughly one-third that of the US; income distribution remains highly unequal.
+			Mexico has become the US' second-largest export market and third-largest source of imports. In 2014, two-way trade in goods and services exceeded $590 billion. Mexico has free trade agreements with 46 countries, putting more than 90% of trade under free trade agreements. In 2012, Mexico formally joined the Trans-Pacific Partnership negotiations and formed the Pacific Alliance with Peru, Colombia, and Chile.
+			Mexico's current government, led by President Enrique PENA NIETO, emphasized economic reforms during its first two years in office, passing and implementing sweeping education, energy, financial, fiscal, and telecommunications reform legislation, among others, with the long-term aim to improve competitiveness and economic growth across the Mexican economy. Mexico began holding public auctions of exploration and development rights to select oil and gas resources in 2015 as a part of reforms that allow for private investment in the oil, gas, and electricity sectors. The second and third auctions demonstrated the capacity for the Mexican Government to adapt and improve the terms of the contracts to garner sufficient interest from investors amid low oil prices.
+			Although the economy experienced stronger growth in 2014-15 as a result of increased investment and stronger demand for Mexican exports, growth is predicted to remain below potential given falling oil production, weak oil prices, structural issues such as low productivity, high inequality, a large informal sector employing over half of the workforce, weak rule of law, and corruption. Over the medium-term, the economy is vulnerable to global economic pressures, such as lower external demand, rising interest rates, and low oil prices - approximately 20% of government revenue comes from the state-owned oil company, PEMEX. The increasing integration of supply chains, development of energy sectors, and government-to-government focus on trade facilitation will continue to make the North American region increasingly competitive and contribute to Mexican economic development and strength.
+		</overview>
+		<gdps note="data are in 2015 US dollars" exchange-rate="$1.144 trillion">
+			<gdp to="2015" unit="$" value="trillion">2.227</gdp>
+			<gdp to="2014" unit="$" value="trillion">2.172</gdp>
+			<gdp to="2013" unit="$" value="trillion">2.124</gdp>
+			<real-growth-rate unit="%">
+				<growth-rate to="2015">2.5</growth-rate>
+				<growth-rate to="2014">2.3</growth-rate>
+				<growth-rate to="2013">1.3</growth-rate>
+			</real-growth-rate>
+			<per-capita unit="$" note="data are in 2015 US dollars">
+				<capita to="2015">17500</capita>
+				<capita to="2014">17300</capita>
+				<capita to="2013">17200</capita>
+			</per-capita>
+			<gross-national unit="% of GDP">
+				<gross to="2015">19.9</gross>
+				<gross to="2014">19.6</gross>
+				<gross to="2013">19.3</gross>
+			</gross-national>
+			<composition-end-use unit="%" household="69.3" government="12.3" investment-capital="22.2" investment-inventories="-1.7" exports="35.3" imports="-37.4" />
+			<composition-end-sector unit="%" agriculture="3.6" industry="32.8" services="63.6" />
+		</gdps>
+		<agriculture products="corn, wheat, soybeans, rice, beans, cotton, coffee, fruit, tomatoes; beef, poultry, dairy products; wood products" />
+		<industries value="food and beverages, tobacco, chemicals, iron and steel, petroleum, mining, textiles, clothing, motor vehicles, consumer durables, tourism" />
+		<industrial-production rate="0.9%" />
+		<labor-force agriculture="13.4" industry="24.1" services="61.9" unit="%">52.91 million</labor-force>
+		<unemploy unit="%">
+			<u-rate to="2015">4.4</u-rate>
+			<u-rate to="2014">4.8</u-rate>
+		</unemploy>
+		<poverty-line percentage="52.3" note="based on food-based definition of poverty; asset-based poverty amounted to more than 47%" />
+		<household lowest="2" highest="37.5" unit="%" />
+		<distribution-of-family>
+			<distribution to="2008">48.3</distribution>
+			<distribution to="1998">53.1</distribution>
+		</distribution-of-family>
+		<budget surplus-deficit="-3.5% of GDP" revenues="$269.2 billion" expenditures="$308.7 billion" />
+		<taxes value="23.5% of GDP" />
+		<public-debt unit="% of GDP">
+			<debt to="2015">46.5</debt>
+			<debt to="2014">41.9</debt>
+		</public-debt>
+		<fiscal-year value="calendar year" />
+		<inflation-rate unit="%">
+			<i-rate to="2015">2.7</i-rate>
+			<i-rate to="2014">4</i-rate>
+		</inflation-rate>
+		<bank-discount-rate unit="%">
+			<b-rate to="2012">4.5</b-rate>
+			<b-rate to="2011">4.5</b-rate>
+		</bank-discount-rate>
+		<bank-lending-rate unit="%">
+			<b-rate to="2015">3.42</b-rate>
+			<b-rate to="2014">3.55</b-rate>
+		</bank-lending-rate>
+		<stock-of-narrow-money unit="$" value="billion">
+			<money to="2015">76.5</money>
+			<money to="2014">75.74</money>
+		</stock-of-narrow-money>
+		<stock-of-broad-money unit="$" value="billion">
+			<money to="2014">194.8</money>
+			<money to="2013">195.6</money>
+		</stock-of-broad-money>
+		<stock-of-domestic-credit unit="$" value="billion">
+			<money to="2015">398.9</money>
+			<money to="2014">413</money>
+		</stock-of-domestic-credit>
+		<market-value unit="$" value="billion">
+			<money to="2015">525.1</money>
+			<money to="2014">408.7</money>
+			<money to="2013">454.3</money>
+		</market-value>
+		<current-account unit="$" value="billion">
+			<money to="2015">-32.38</money>
+			<money to="2014">-24.85</money>
+		</current-account>
+		<exports commodities="manufactured goods, oil and oil products, silver, fruits, vegetables, coffee, cotton" unit="$" value="billion">
+			<money to="2015">381</money>
+			<money to="2014">397.7</money>
+			<partners>
+				<partner percentage="81.1">US</partner>
+			</partners>
+		</exports>
+		<imports commodities="metalworking machines, steel mill products, agricultural machinery, electrical equipment, automobile parts for assembly and repair, aircraft, aircraft parts" unit="$" value="billion">
+			<money to="2015">395.6</money>
+			<money to="2014">400.4</money>
+			<partners>
+				<partner percentage="47.3">US</partner>
+				<partner percentage="17.7">China</partner>
+				<partner percentage="4.4">Japan</partner>
+			</partners>
+		</imports>
+		<reserves unit="$" value="billion">
+			<money to="2015">178</money>
+			<money to="2014">195.9</money>
+		</reserves>
+		<debt-external unit="$" value="billion">
+			<money to="2015">441.6</money>
+			<money to="2015">432.6</money>
+		</debt-external>
+		<stock-of-investment unit="$" value="billion">
+			<at-home>
+				<money to="2015">356.9</money>
+				<money to="2014">389.7</money>
+			</at-home>
+			<abroad>
+				<money to="2015">142.9</money>
+				<money to="2014">143.9</money>
+			</abroad>
+		</stock-of-investment>
+		<exchange-rates description="Mexican pesos (MXN) per US dollar">
+			<money to="2015">15.848</money>
+			<money to="2014">13.292</money>
+			<money to="2013">13.292</money>
+			<money to="2012">13.17</money>
+			<money to="2012">12.423</money>
+		</exchange-rates>
+	</economy>
+	<energy>
+		<electricity>
+			<e-access population-without="1231667" total="99%" urban-areas="100%" rural-areas="97%" />
+			<e-production value="286 billion kWh" />
+			<e-consuption value="238 billion kWh" />
+			<e-exports value="7.1 billion kWh" />
+			<e-imports value="400 million kWh" />
+			<e-generating-capacity value="66 million kWh" />
+			<e-fossil-fuels percentage="74.2" note="of total installed capacity" />
+			<e-nuclear-fuels value="18.7" unit="%" note="of total installed capacity" />
+			<e-sources percentage="4.7" note="of total installed capacity" />
+		</electricity>
+		<crude-oil>
+			<e-production value="2.302 million bbl/day" />
+			<e-exports value="1.199 million bbl/day" />
+			<e-imports value="11,110 bbl/day" />
+			<e-proved-reserves value="9.7 billion bbl" />
+		</crude-oil>
+		<petroleum-products>
+			<e-production value="1.258 million bbl/day" />
+			<e-consuption value="2.007 million bbl/day" />
+			<e-exports value="190,900 bbl/day" />
+			<e-imports value="713,500 bbl/day" />
+		</petroleum-products>
+		<natural-gas>
+			<e-production value="44.37 billion cu m" />
+			<e-consuption value="72.77 billion cu m" />
+			<e-exports value="52 million cu m" />
+			<e-imports value="28.84 billion cu m" />
+			<e-proved-reserves value="432.9 billion cu m" />
+		</natural-gas>
+		<carbon-dioxide value="455 million Mt" />
+	</energy>
+	<communications>
+		<telephones>
+			<fixed total="19,886,949" />
+			<mobile total="106.831 million" />
+			<system>
+				<general-assessment>
+					adequate telephone service for business and government; improving quality and increasing mobile cellular availability, with mobile subscribers far outnumbering fixed-line subscribers; domestic satellite system with 120 earth stations; extensive microwave radio relay network; considerable use of fiber-optic cable and coaxial cable
+				</general-assessment>
+				<domestic>
+					competition has spurred the mobile-cellular market; fixed-line teledensity is less than 20 per 100 persons; mobile-cellular teledensity is about 90 per 100 persons
+				</domestic>
+				<international>
+					country code - 52; Columbus-2 fiber-optic submarine cable with access to the US, Virgin Islands, Canary Islands, Spain, and Italy; the Americas Region Caribbean Ring System (ARCOS-1) and the MAYA-1 submarine cable system together provide access to Central America, parts of South America and the Caribbean, and the US; satellite earth stations - 120 (32 Intelsat, 2 Solidaridad (giving Mexico improved access to South America, Central America, and much of the US as well as enhancing domestic communications), 1 Panamsat, numerous Inmarsat mobile earth stations); linked to Central American Microwave System of trunk connections
+				</international>
+			</system>
+		</telephones>
+		<broadcast-media>
+			many TV stations and more than 1,400 radio stations with most privately owned; the Televisa group once had a virtual monopoly in TV broadcasting, but new broadcasting groups and foreign satellite and cable operators are now available
+		</broadcast-media>
+		<internet country-code=".mx">
+			<users total="69.915 million" percentage="57.4" />
+		</internet>
+	</communications>
+	<transportation>
+		<national-air number-of-registered="21" inventory-of-registered="357" annual-passenger-traffic="45560063" annual-freight-traffic="713,985,467 mt-km" />
+		<civil-aircraft country-coude-prefix="XA" />
+		<airports>
+			<paved-runways>
+				<runway description="over 3,047 m" value="12" />
+				<runway description="2,438 to 3,047 m" value="32" />
+				<runway description="1,524 to 2,437 m" value="80" />
+				<runway description="914 to 1,523 m" value="86" />
+				<runway description="under 914 m" value="33" />
+			</paved-runways>
+			<unpaved-runways>
+				<runway description="over 3,047 m" value="1" />
+				<runway description="2,438 to 3,047 m" value="1" />
+				<runway description="1,524 to 2,437 m" value="42" />
+				<runway description="914 to 1,523 m" value="281" />
+				<runway description="under 914 m" value="1146" />
+			</unpaved-runways>
+		</airports>
+		<heliports value="1" />
+		<pipelines>
+			gas 18,074 km; liquid petroleum 2,102 km; oil 8,775 km; oil/gas/water 369 km; refined products 7,565 km; water 123 km
+		</pipelines>
+		<railways narrow-gauge="15,389 km 1.435-m gauge (27 km electrified)" note="4,816 km operational" />
+		<roadways unit="km" paved="137544" unpaved="240116" />
+		<waterways value="2,900 km" note="navigable rivers and coastal canals mostly connected with ports on the country's east coast" />
+		<merchant-marine>
+			<by-type>
+				bulk carrier 5, cargo 3, chemical tanker 11, liquefied gas 3, passenger/cargo 10, petroleum tanker 17, roll on/roll off 3
+			</by-type>
+			<foreign-owned>
+				5 (France 1, Greece 2, South Africa 1, UAE 1)
+			</foreign-owned>
+			<registered-in-other-countries>
+				12 (Antigua and Barbuda 1, Marshall Islands 2, Panama 5, Portugal 1, Spain 1, Venezuela 1, unknown 1)
+			</registered-in-other-countries>
+		</merchant-marine>
+		<ports-terminals>
+			<major-seaports>
+				<seaport>Altamira</seaport>
+				<seaport>Coatzacoalcos</seaport>
+				<seaport>Lazaro Cardenas</seaport>
+				<seaport>Manzanillo</seaport>
+				<seaport>Veracruz</seaport>
+			</major-seaports>
+			<container-ports>
+				<port value="1992176">Manzanillo</port>
+				<port value="1242777">Lazaro Cardenas</port>
+			</container-ports>
+			<oil-terminals>
+				<terminal>Cayo Arcas terminal</terminal>
+				<terminal>Dos Bocas terminal</terminal>
+			</oil-terminals>
+			<lng-terminals-export>
+				<terminal>Altamira</terminal>
+				<terminal>Ensenada</terminal>
+			</lng-terminals-export>
+			<cruise-ports>
+				<port>Cancun</port>
+				<port>Cozumel</port>
+				<port>Ensenada</port>
+			</cruise-ports>
+		</ports-terminals>
+	</transportation>
+	<military-security>
+		<branches>
+			Secretariat of National Defense (Secretaria de Defensa Nacional, Sedena): Army (Ejercito), Mexican Air Force (Fuerza Aerea Mexicana, FAM); Secretariat of the Navy (Secretaria de Marina, Semar): Mexican Navy (Armada de Mexico (ARM); includes Naval Air Force (FAN), Mexican Naval Infantry Corps (Cuerpo de Infanteria de Marina, Mexmar or CIM))
+		</branches>
+		<service-age>
+			18 years of age for compulsory military service, conscript service obligation is 12 months; 16 years of age with consent for voluntary enlistment; conscripts serve only in the Army; Navy and Air Force service is all voluntary; women are eligible for voluntary military service; cadets enrolled in military schools from the age of 15 are considered members of the armed forces
+		</service-age>
+		<expenditures unit="% of GDP">
+			<expenditure value="0.59" to="2012" />
+			<expenditure value="0.56" to="2011" />
+			<expenditure value="0.59" to="2010" />
+		</expenditures>
+	</military-security>
+	<transnational-issues>
+		<disputes>
+			abundant rainfall in recent years along much of the Mexico-US border region has ameliorated periodically strained water-sharing arrangements; the US has intensified security measures to monitor and control legal and illegal personnel, transport, and commodities across its border with Mexico; Mexico must deal with thousands of impoverished Guatemalans and other Central Americans who cross the porous border looking for work in Mexico and the US; Belize and Mexico are working to solve minor border demarcation discrepancies arising from inaccuracies in the 1898 border treaty
+		</disputes>
+		<refugees idps="287,000 (government's quashing of Zapatista uprising in 1994 in eastern Chiapas Region; drug cartel violence and government's military response since 2007; violence between and within indigenous groups)" stateless-persons="13" />
+		<illict-drugs>
+			major drug-producing and transit nation; world's second largest opium poppy cultivator; opium poppy cultivation in 2009 rose 31% over 2008 to 19,500 hectares yielding a potential production of 50 metric tons of pure heroin, or 125 metric tons of "black tar" heroin, the dominant form of Mexican heroin in the western United States; marijuana cultivation increased 45% to 17,500 hectares in 2009; government conducts the largest independent illicit-crop eradication program in the world; continues as the primary transshipment country for US-bound cocaine from South America, with an estimated 95% of annual cocaine movements toward the US stopping in Mexico; major drug syndicates control the majority of drug trafficking throughout the country; producer and distributor of ecstasy; significant money-laundering center; major supplier of heroin and largest foreign supplier of marijuana and methamphetamine to the US market
+		</illict-drugs>
+	</transnational-issues>
+</country>

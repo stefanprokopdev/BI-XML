@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<country iso-code="mu">
+	<images>
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/mp/images/MP_001.jpg" caption="Tropical Cyclone Dumile over La Reunion Island and Mauritius was captured by satellite on 3 January 2013. Dumile's center was just northwest of Reunion (left) and Mauritius (right). The large island to the left is Madagascar. Image courtesy of NASA Goddard MODIS Rapid Response Team." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/afr/mp_large_locator.gif" />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/mp-map.gif" />
+	</images>
+	<background>
+		Although known to Arab and Malay sailors as early as the 10th century, Mauritius was first explored by the Portuguese in the 16th century and subsequently settled by the Dutch - who named it in honor of Prince Maurits van NASSAU - in the 17th century. The French assumed control in 1715, developing the island into an important naval base overseeing Indian Ocean trade, and establishing a plantation economy of sugar cane. The British captured the island in 1810, during the Napoleonic Wars. Mauritius remained a strategically important British naval base, and later an air station, playing an important role during World War II for anti-submarine and convoy operations, as well as the collection of signals intelligence. Independence from the UK was attained in 1968. A stable democracy with regular free elections and a positive human rights record, the country has attracted considerable foreign investment and has one of Africa's highest per capita incomes.
+	</background>
+	<geography coordinate-s="20 17" coordinate-e="57 33">
+		<location value="Southern Africa, island in the Indian Ocean, about 800 km (500 mi) east of Madagascar" />
+		<map-references value="Africa" />
+		<area land="2030" water="10" unit="sq km" note="includes Agalega Islands, Cargados Carajos Shoals (Saint Brandon), and Rodrigues" />
+		<area-comparative value="slightly less than three times the size of Texas" area-comparison-map="https://www.cia.gov/library/publications/the-world-factbook/graphics/areacomparison/ID_area.jpg" />
+		<maritime-claims value="measured from claimed archipelagic straight baselines" territorial-sea="12" exclusive-economic-zone="200" unit="nm" continental-shelf="200 nm or to the edge of the continental margin" />
+		<climate value="tropical, modified by southeast trade winds; warm, dry winter (May to November); hot, wet, humid summer (November to May)" />
+		<terrain value="small coastal plain rising to discontinuous mountains encircling central plateau" />
+		<elevation mean-elevation="NA" lowest-point="Indian Ocean, 0" highest-point="Mont Piton, 828" unit="m" />
+		<natural-resources value="arable land, fish" />
+		<land-use arable-land="38.4" permanent-crops="2" permanent-pasture="3.4" forest="17.3" other="38.9" unit="%" />
+		<irrigated-land value="190 sq km" />
+		<natural-hazards value="cyclones (November to April); almost completely surrounded by reefs that may pose maritime hazards" />
+		<environment current-issues="water pollution, degradation of coral reefs" party-to="Antarctic-Marine Living Resources, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands" not-ratified="none of the selected agreements" />
+		<note>
+			the main island, from which the country derives its name, is of volcanic origin and is almost entirely surrounded by coral reefs; former home of the dodo, a large flightless bird related to pigeons, driven to extinction by the end of the 17th century through a combination of hunting and the introduction of predatory species
+		</note>
+	</geography>
+	<people-society>
+		<people>1348242</people>
+		<nationality noun="Mauritian(s)" adjective="Mauritian" />
+		<ethnic-groups>
+			<ethnic-group percentage="68">Indo-Mauritian</ethnic-group>
+			<ethnic-group percentage="27">Creole</ethnic-group>
+			<ethnic-group percentage="3">Sino-Mauritian</ethnic-group>
+			<ethnic-group percentage="2">Franco-Mauritian</ethnic-group>
+		</ethnic-groups>
+		<languages>
+			<language>
+				Creole
+			</language>
+			<language>
+				Bhojpuri
+			</language>
+			<language>
+				French
+			</language>
+		</languages>
+		<religions>
+			<religion percentage="48.5">Hindu</religion>
+			<religion percentage="26.3">Roman Catholic</religion>
+			<religion percentage="17.3">Muslim</religion>
+			<religion percentage="6.4">Other Christian</religion>
+			<religion percentage="0.6">Other</religion>
+			<religion percentage="0.7">None</religion>
+			<religion percentage="0.1">unspecified</religion>
+		</religions>
+		<demographic>
+			Mauritius has transitioned from a country of high fertility and high mortality rates in the 1950s and mid-1960s to one with among the lowest population growth rates in the developing world today. After World War II, Mauritius’ population began to expand quickly due to increased fertility and a dramatic drop in mortality rates as a result of improved health care and the eradication of malaria. This period of heightened population growth – reaching about 3% a year – was followed by one of the world’s most rapid birth rate declines.
+			The total fertility rate fell from 6.2 children per women in 1963 to 3.2 in 1972 – largely the result of improved educational attainment, especially among young women, accompanied by later marriage and the adoption of family planning methods. The family planning programs’ success was due to support from the government and eventually the traditionally pronatalist religious communities, which both recognized that controlling population growth was necessary because of Mauritius’ small size and limited resources. Mauritius’ fertility rate has consistently been below replacement level since the late 1990s, a rate that is substantially lower than nearby countries in southern Africa.
+			With no indigenous population, Mauritius’ ethnic mix is a product of more than two centuries of European colonialism and continued international labor migration. Sugar production relied on slave labor mainly from Madagascar, Mozambique, and East Africa from the early 18th century until its abolition in 1835, when slaves were replaced with indentured Indians. Most of the influx of indentured labor – peaking between the late 1830s and early 1860 – settled permanently creating massive population growth of more than 7% a year and reshaping the island’s social and cultural composition. While Indians represented about 12% of Mauritius’ population in 1837, they and their descendants accounted for roughly two-thirds by the end of the 19th century. Most were Hindus, but the majority of the free Indian traders were Muslims.
+			Mauritius again turned to overseas labor when its success in clothing and textile exports led to a labor shortage in the mid-1980s. Clothing manufacturers brought in contract workers (increasingly women) from China, India, and, to a lesser extent Bangladesh and Madagascar, who worked longer hours for lower wages under poor conditions and were viewed as more productive than locals. Downturns in the sugar and textile industries in the mid-2000s and a lack of highly qualified domestic workers for Mauritius’ growing services sector led to the emigration of low-skilled workers and a reliance on skilled foreign labor. Since 2007, Mauritius has pursued a circular migration program to enable citizens to acquire new skills and savings abroad and then return home to start businesses and to invest in the country’s development.
+		</demographic>
+		<age-structure image="https://www.cia.gov/library/publications/the-world-factbook/graphics/population/MP_popgraph%202016.bmp" image-title="Population pyramid">
+			<structure structure="0-14" percentage="20.44" male="140808" female="134826" />
+			<structure structure="15-24" percentage="15.06" male="102593" female="100465" />
+			<structure structure="25-54" percentage="43.87" male="295794" female="295719" />
+			<structure structure="55-64" percentage="11.37" male="72733" female="80621" />
+			<structure structure="65-over" percentage="9.25" male="50888" female="73795" />
+		</age-structure>
+		<dependency-ratios unit="%" youth="27.2" elderly="13.4" potential-support="7.4" />
+		<median-age male="33.9" female="35.8" unit="years" />
+		<population-growth-rate>
+			0.61%
+		</population-growth-rate>
+		<birth-rate>
+			13.1 births/1,000 population
+		</birth-rate>
+		<death-rate>
+			7 deaths/1,000 population
+		</death-rate>
+		<net-migration-rate>
+			0 migrant(s)/1,000 population
+		</net-migration-rate>
+		<urbanization>
+			<urban-population>
+				39.7% of total population
+			</urban-population>
+			<rate-of-urbanization>
+				-0.08% annual rate of change
+			</rate-of-urbanization>
+		</urbanization>
+		<major-urban-areas unit="k">
+			<areas population="135">PORT LOUIS (capital)</areas>
+		</major-urban-areas>
+		<sex-ratio total-population="1" unit="male(s)/female">
+			<ratio value="1.05">
+				at birth
+			</ratio>
+			<ratio value="1.04">
+				0-14
+			</ratio>
+			<ratio value="1.02">
+				15-24
+			</ratio>
+			<ratio value="1">
+				25-54
+			</ratio>
+			<ratio value="0.9">
+				55-64
+			</ratio>
+			<ratio value="0.68">
+				65-over
+			</ratio>
+		</sex-ratio>
+		<maternal-mortality-rate value="53 deaths/100,000 live births" />
+		<infant-mortality-rate unit="deaths/1,000 live births" male="11.9" female="8.1" />
+		<life-expectancy-at-birth unit="years" male="72.2" female="79.2" />
+		<total-fertility-rate value="1.75 children born/woman" />
+		<health-expenditures value="4.8% of GDP" />
+		<physicians-density value="1.62 physicians/1,000 population" />
+		<hospital-bed-density value="3.4 beds/1,000 population" />
+		<drinking-water-source unit="% of population">
+			<improved urban="99.9" rural="99.9" total="99.9" />
+			<unimproved urban="0.1" rural="0.2" total="0.1" />
+		</drinking-water-source>
+		<sanitation-facility-access unit="% of population">
+			<improve urban="93.9" rural="92.6" total="93.1" />
+			<unimprove urban="6.1" rural="7.4" total="6.9" />
+		</sanitation-facility-access>
+		<hiv-aids>
+			<rate value="0.88%" />
+			<living-with value="8200" />
+			<deaths value="400" />
+		</hiv-aids>
+		<obesity percentage="18.8" />
+		<education-expenditures value="5% of GDP" />
+		<literacy unit="%" definition="age 15 and over can read and write" male="92.9" female="88.5" />
+		<school-life unit="years" total="15" male="15" female="16" description="primary to tertiary education" />
+		<unemployment description="youth ages 15-24" unit="%" total="25.1" male="20.1" female="32.6" />
+	</people-society>
+	<government type="parliamentary republic">
+		<country-name long-form="Republic of Mauritius" short-form="Mauritius" local-long-form="Republic of Mauritius" local-short-form="Mauritius" note="island named after Prince Maurice VAN NASSAU, stadtholder of the Dutch Republic, in 1598" />
+		<capital coordinate-e="57 29" coordinate-s="20 09" time="UTC+4">
+			Port Louis
+		</capital>
+		<administrative-divisions>
+			9 districts and 3 dependencies*; Agalega Islands*, Black River, Cargados Carajos Shoals*, Flacq, Grand Port, Moka, Pamplemousses, Plaines Wilhems, Port Louis, Riviere du Rempart, Rodrigues*, Savanne
+		</administrative-divisions>
+		<independence date="12 March 1968" />
+		<national-holiday>
+			<holiday date="12 March" name="Independence Day" />
+		</national-holiday>
+		<constitution>
+			several previous; latest adopted 12 March 1968; amended many times, last in 2015
+		</constitution>
+		<legal-system>
+			civil legal system based on French civil law with some elements of English common law
+		</legal-system>
+		<international-law>
+			accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction
+		</international-law>
+		<citizenship by-birth="yes" by-descent-only="yes" dual-citizenship-recognized="yes" residency-requirement-for-naturalization="5 out of the previous 7 years including the last 12 months" />
+		<suffrage>
+			18 years of age; universal
+		</suffrage>
+		<executive-branch>
+			<chief-of-state value="President Ameenah GURIB-FAKIM (since 5 June 2015); Vice President Paramaslyum (aka Barlen) Pillay VYAPOORY" />
+			<head-of-government value="Prime Minister Sir Anerood JUGNAUTH (since 17 December 2014)" />
+			<cabinet value="Cabinet of Ministers (Council of Ministers) appointed by the president on the recommendation of the prime minister" />
+			<elections-appointments value="president and vice president indirectly elected by the National Assembly for a 5-year term (eligible for a second term); election last held on 4 June 2015 (next to be held in 2020); prime minister and deputy prime minister appointed by the president, responsible to the National Assembly" />
+			<election-results value="Ameenah GURIB-FAKIM (independent) elected president by the National Assembly - unanimous vote" />
+		</executive-branch>
+		<legislative-branch>
+			<description>
+				unicameral National Assembly or Assemblee Nationale (70 seats maximum; 62 members directly elected in single- and multi-seat constituencies by simple majority vote and up to 8 seats allocated to non-elected party candidates by the Electoral Commissioner's Office to ensure fair and adequate representation of each community and party in the Assembly, as outlined in the Constitution; members serve 5-year terms)
+			</description>
+			<elections>
+				last held on 10 December 2014 (next to be held by 2019); note - the National Assembly was dissolved on 6 October 2014, resulting in early elections
+			</elections>
+			<election-result>
+				percent of vote by party - Alliance Lepep 49.8%, PTR-MMM 38.5%, FSM 2.1%, OPR 1.1%, other 8.5%; elected seats by party - Alliance Lepep 47, PTR-MMM 13, OPR 2; appointed seats Alliance Lepep 4, PTR-MMM 3
+			</election-result>
+		</legislative-branch>
+		<judicial-branch>
+			<highest-court>
+				Supreme Court of Mauritius (consists of the chief justice, a senior puisne judge, and 17 puisne judges); note - the Judicial Committee of the Privy Council (in London) serves as the final court of appeal
+			</highest-court>
+			<judge-selection>
+				chief justice appointed by the president after consultation with the prime minister; senior puisne judge appointed by the president with the advice of the chief justice; other puisne judges appointed by the president with the advice of the Judicial and Legal Commission, a 4-member body of judicial officials including the chief justice; all judges serve until retirement at age 62
+			</judge-selection>
+			<subordinate-courts>Court of Civil Appeal; Court of Criminal Appeal; Public Bodies Appeal Tribunal</subordinate-courts>
+		</judicial-branch>
+		<political-parties>
+			<party leader="Sir Anerood JUGNAUTH" name="Alliance Lepep" />
+			<party leader="Navinchandra RAMGOOLAM" name="Labor Party" short="PTR" />
+			<party leader="Paul BERENGER" name="Mauritian Militant Movement" short="MMM" />
+			<party leader="Xavier Luc DUVAL" name="Mauritian Social Democratic Party" short="PMSD" />
+			<party leader="Cehl FAKEERMEEAH" name="Mauritian Solidarity Front" short="FSM" />
+			<party leader="Pravind JUGNAUTH" name="Militant Socialist Movement" short="MSM" />
+			<party leader="Ivan COLLENDAVELLOO" name="Muvman Liberater" short="ML" />
+			<party leader="Serge CLAIR" name="Rodrigues Peoples Organization" short="OPR" />
+		</political-parties>
+		<political-pressure other="various labor unions">
+			Lalit Political Party
+			Rezistans ek Alternativ (Resistance and Alternative)
+			Say No to Coal!
+		</political-pressure>
+		<international-participation-organization>
+			ACP, AfDB, AOSIS, AU, C, CD, COMESA, CPLP (associate), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, InOC, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, PCA, SAARC (observer), SADC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO
+		</international-participation-organization>
+		<diplomatic-representation>
+			<in-us chief-of-commision="Ambassador Sooroojdev PHOKEER" chancery="1709 N Street NW, Washington, DC 20036; administrative offices at 3201 Connecticut Avenue NW, Suite 441, Washington, DC 20036" telephone="[1] (202) 244-1491 through 1492" fax="[1] (202) 966-0983" />
+			<from-us chief-of-commision="Ambassador (vacant); Charge d'Affaires Melanie ZIMMERMAN" embassy="4th Floor, Rogers House, John Kennedy Avenue, Port Louis" mailing-address="international mail: P.O. Box 544, Port Louis; US mail: American Embassy, Port Louis, US Department of State, Washington, DC 20521-2450" telephone="[230] 202-4400" fax="[230] 208-9534" />
+		</diplomatic-representation>
+		<flag description="four equal horizontal bands of red (top), blue, yellow, and green; red represents self-determination and independence, blue the Indian Ocean surrounding the island, yellow has been interpreted as the new light of independence, golden sunshine, or the bright future, and green can symbolize either agriculture or the lush vegetation of the island" />
+		<national-symbols symbol="dodo bird, Trochetia Boutoniana flower" national-colors="red, blue, yellow, green" />
+		<national-anthem name='"Motherland"' lyrics="Jean Georges PROSPER/Philippe GENTIL" note="adopted 1968" source="https://www.cia.gov/library/publications/the-world-factbook/anthems/MP.mp3" />
+	</government>
+	<economy>
+		<overview>
+			Since independence in 1968, Mauritius has undergone a remarkable economic transformation from a low-income, agriculturally based economy to a diversified, upper middle-income economy with growing industrial, financial, and tourist sectors. Mauritius has achieved steady growth over the last several decades, resulting in more equitable income distribution, increased life expectancy, lowered infant mortality, and a much-improved infrastructure.
+			The economy currently rests on sugar, tourism, textiles and apparel, and financial services, but is expanding into fish processing, information and communications technology, and hospitality and property development. Sugarcane is grown on about 90% of the cultivated land area and accounts for 15% of export earnings. The government's development strategy centers on creating vertical and horizontal clusters of development in these sectors. Mauritius has attracted more than 32,000 offshore entities, many aimed at commerce in India, South Africa, and China. Investment in the banking sector alone has reached over $1 billion. Mauritius’ textile sector has taken advantage of the Africa Growth and Opportunity Act, a preferential trade program that allows duty free access to the US market, with Mauritian exports to the US growing by 40% from 2000 to 2014.
+			Mauritius' sound economic policies and prudent banking practices helped to mitigate negative effects of the global financial crisis in 2008-09. GDP grew in the 3-4% per year range in 2010-14, and the country continues to expand its trade and investment outreach around the globe. Growth in the US and Europe fostered goods and services exports, including tourism, while lower oil prices kept inflation low in 2015.
+		</overview>
+		<gdps note="data are in 2015 US dollars" exchange-rate="$11.61 billion">
+			<gdp to="2015" unit="$" value="billion">24.57</gdp>
+			<gdp to="2014" unit="$" value="billion">23.76</gdp>
+			<gdp to="2013" unit="$" value="billion">22.93</gdp>
+			<real-growth-rate unit="%">
+				<growth-rate to="2015">3.4</growth-rate>
+				<growth-rate to="2014">3.6</growth-rate>
+				<growth-rate to="2013">3.2</growth-rate>
+			</real-growth-rate>
+			<per-capita unit="$" note="data are in 2015 US dollars">
+				<capita to="2015">19500</capita>
+				<capita to="2014">18900</capita>
+				<capita to="2013">18200</capita>
+			</per-capita>
+			<gross-national unit="% of GDP">
+				<gross to="2015">14.8</gross>
+				<gross to="2014">15.1</gross>
+				<gross to="2013">15.3</gross>
+			</gross-national>
+			<composition-end-use unit="%" household="74.2" government="14.4" investment-capital="17.7" investment-inventories="3.5" exports="49.8" imports="-59.6" />
+			<composition-end-sector unit="%" agriculture="4" industry="22.3" services="73.7" />
+		</gdps>
+		<agriculture products="sugarcane, tea, corn, potatoes, bananas, pulses; cattle, goats; fish" />
+		<industries value="food processing (largely sugar milling), textiles, clothing, mining, chemicals, metal products, transport equipment, nonelectrical machinery, tourism" />
+		<industrial-production rate="2%" />
+		<labor-force agriculture="9" industry="30" communication="7" services="47.9" trtade="22" finance="6" other="25" unit="%">614,300</labor-force>
+		<unemploy unit="%">
+			<u-rate to="2015">8</u-rate>
+			<u-rate to="2014">7.8</u-rate>
+		</unemploy>
+		<poverty-line percentage="8" />
+		<household lowest="NA" highest="NA" unit="%" />
+		<distribution-of-family>
+			<distribution to="2012">35.9</distribution>
+			<distribution to="2006">39</distribution>
+		</distribution-of-family>
+		<budget surplus-deficit="-3.6% of GDP" revenues="$2.341 billion" expenditures="$2.764 billion" />
+		<taxes value="20.2% of GDP" />
+		<public-debt unit="% of GDP">
+			<debt to="2015">63.7</debt>
+			<debt to="2014">61.5</debt>
+		</public-debt>
+		<fiscal-year value="1 July - 30 June" />
+		<inflation-rate unit="%">
+			<i-rate to="2015">1.3</i-rate>
+			<i-rate to="2014">3.2</i-rate>
+		</inflation-rate>
+		<bank-discount-rate unit="%">
+			<b-rate to="2010">9.3</b-rate>
+		</bank-discount-rate>
+		<bank-lending-rate unit="%">
+			<b-rate to="2015">8.5</b-rate>
+			<b-rate to="2014">8.5</b-rate>
+		</bank-lending-rate>
+		<stock-of-narrow-money unit="$" value="billion">
+			<money to="2015">2.547</money>
+			<money to="2014">2.634</money>
+		</stock-of-narrow-money>
+		<stock-of-broad-money unit="$" value="billion">
+			<money to="2014">12.6</money>
+			<money to="2013">12.15</money>
+		</stock-of-broad-money>
+		<stock-of-domestic-credit unit="$" value="billion">
+			<money to="2015">13.28</money>
+			<money to="2014">14.08</money>
+		</stock-of-domestic-credit>
+		<market-value unit="$" value="billion">
+			<money to="2015">7.093</money>
+			<money to="2014">7.667</money>
+			<money to="2013">7.442</money>
+		</market-value>
+		<current-account unit="$" value="million">
+			<money to="2015">-590</money>
+			<money to="2014">-713</money>
+		</current-account>
+		<exports commodities="clothing and textiles, sugar, cut flowers, molasses, fish, primates (for research)" unit="$" value="billion">
+			<money to="2015">2.685</money>
+			<money to="2014">3.094</money>
+			<partners>
+				<partner percentage="13.2">UK</partner>
+				<partner percentage="12.4">UAE</partner>
+				<partner percentage="11.9">France</partner>
+				<partner percentage="10.7">US</partner>
+				<partner percentage="8.6">South Africa</partner>
+				<partner percentage="6.5">Madagascar</partner>
+				<partner percentage="5.4">Italy</partner>
+				<partner percentage="4.4">Spain</partner>
+			</partners>
+		</exports>
+		<imports commodities="manufactured goods, capital equipment, foodstuffs, petroleum products, chemicals" unit="$" value="billion">
+			<money to="2015">4.526</money>
+			<money to="2014">5.354</money>
+			<partners>
+				<partner percentage="18.7">India</partner>
+				<partner percentage="17.8">China</partner>
+				<partner percentage="7.1">France</partner>
+				<partner percentage="6.5">South Africa</partner>
+				<partner percentage="4.4">Vietnam</partner>
+			</partners>
+		</imports>
+		<reserves unit="$" value="billion">
+			<money to="2015">4.26</money>
+			<money to="2014">3.919</money>
+		</reserves>
+		<debt-external unit="$" value="billion">
+			<money to="2015">10.62</money>
+			<money to="2015">11.29</money>
+		</debt-external>
+		<stock-of-investment>
+			<at-home>
+				<money>NA</money>
+			</at-home>
+			<abroad>
+				<money>NA</money>
+			</abroad>
+		</stock-of-investment>
+		<exchange-rates description="Mauritian rupees (MUR) per US dollar">
+			<money to="2015">35.057</money>
+			<money to="2014">30.622</money>
+			<money to="2013">30.622</money>
+			<money to="2012">30.05</money>
+			<money to="2012">28.706</money>
+		</exchange-rates>
+	</economy>
+	<energy>
+		<electricity>
+			<e-access population-without="0" total="100%" />
+			<e-production value="2.8 billion kWh" />
+			<e-consuption value="2.6 billion kWh" />
+			<e-exports value="0 kWh" />
+			<e-imports value="0 kWh" />
+			<e-generating-capacity value="1.1 million kW" />
+			<e-fossil-fuels percentage="96.5" note="of total installed capacity" />
+			<e-nuclear-fuels value="0" unit="%" note="of total installed capacity" />
+			<e-hydroelectric-plants percentage="3.3" note="of total installed capacity" />
+			<e-sources percentage="0.2" note="of total installed capacity" />
+		</electricity>
+		<crude-oil>
+			<e-production value="0 bbl/day" />
+			<e-exports value="0 bbl/day" />
+			<e-imports value="0 bbl/day" />
+			<e-proved-reserves value="0 bbl" />
+		</crude-oil>
+		<petroleum-products>
+			<e-production value="0 bbl/day" />
+			<e-consuption value="25,000 bbl/day" />
+			<e-exports value="0 bbl/day" />
+			<e-imports value="25,960 bbl/day" />
+		</petroleum-products>
+		<natural-gas>
+			<e-production value="0 cu m" />
+			<e-consuption value="0 cu m" />
+			<e-exports value="0 cu m" />
+			<e-imports value="0 cu m" />
+			<e-proved-reserves value="0 cu m" />
+		</natural-gas>
+		<carbon-dioxide value="5.4 million Mt" />
+	</energy>
+	<communications>
+		<telephones>
+			<fixed total="380,000" />
+			<mobile total="1.762 million" />
+			<system>
+				<general-assessment>
+					small system with good service
+				</general-assessment>
+				<domestic>
+					monopoly over fixed-line services terminated in 2005; fixed-line teledensity roughly 25 per 100 persons; mobile-cellular services launched in 1989 with current teledensity roughly 130 per 100 persons
+				</domestic>
+				<international>
+					country code - 230; landing point for the SAFE submarine cable that provides links to Asia and South Africa where it connects to the SAT-3/WASC submarine cable that provides further links to parts of East Africa, and Europe; satellite earth station - 1 Intelsat (Indian Ocean); new microwave link to Reunion; HF radiotelephone links to several countries
+				</international>
+			</system>
+		</telephones>
+		<broadcast-media>
+			the government maintains control over TV broadcasting through the Mauritius Broadcasting Corporation (MBC), which operates 3 analog and 10 digital TV stations; MBC is a shareholder in a local company that operates 2 pay-TV stations; the state retains the largest radio broadcast network with multiple stations; several private radio broadcasters have entered the market since 2001; transmissions of at least 2 international broadcasters are available
+		</broadcast-media>
+		<internet country-code=".mu">
+			<users total="672,000" percentage="50.1" />
+		</internet>
+	</communications>
+	<transportation>
+		<national-air number-of-registered="1" inventory-of-registered="13" annual-passenger-traffic="1466527" annual-freight-traffic="168.773 million mt-km" />
+		<civil-aircraft country-coude-prefix="3B" />
+		<airports>
+			<paved-runways>
+				<runway description="over 3,047 m" value="1" />
+				<runway description="914 to 1,523 m" value="1" />
+			</paved-runways>
+			<unpaved-runways>
+				<runway description="914 to 1,523 m" value="2" />
+				<runway description="under 914 m" value="1" />
+			</unpaved-runways>
+		</airports>
+		<merchant-marine>
+			<by-type>
+				passenger/cargo 2, petroleum tanker 1, refrigerated cargo 1
+			</by-type>
+		</merchant-marine>
+		<ports-terminals>
+			<major-seaports>
+				<seaport>Port Louis</seaport>
+			</major-seaports>
+		</ports-terminals>
+	</transportation>
+	<military-security>
+		<branches>
+			no regular military forces; Mauritius Police Force, Special Mobile Force, National Coast Guard
+		</branches>
+		<expenditures unit="% of GDP">
+			<expenditure value="0.19" to="2012" />
+			<expenditure value="0.16" to="2011" />
+			<expenditure value="0.19" to="2010" />
+		</expenditures>
+	</military-security>
+	<transnational-issues>
+		<disputes>
+			Mauritius and Seychelles claim the Chagos Islands; claims French-administered Tromelin Island
+		</disputes>
+		<trafficking>
+			<current-situation>
+				Mauritius is a source, transit, and destination country for men, women, and children subjected to forced labor and sex trafficking; Mauritian girls are induced or sold into prostitution, often by peers, family members, or businessmen offering other forms of employment; Mauritian adults have been identified as labor trafficking victims in the UK, Belgium, and Canada, while Mauritian women from Rodrigues Island are also subject to domestic servitude in Mauritius; Malagasy women transit Mauritius en route to the Middle East for jobs as domestic servants and subsequently are subjected to forced labor; Cambodian men are victims of forced labor on foreign fishing vessels in Mauritius’ territorial waters; other migrant workers from East and South Asia and Madagascar are also subject to forced labor in Mauritius’ manufacturing and construction sectors
+			</current-situation>
+			<tier-rating>
+				Tier 2 Watch List – Mauritius does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; in 2014, the government made modest efforts to address child sex trafficking but none related to adult forced labor; law enforcement lacks an understanding of trafficking crimes outside of child sex trafficking, despite increasing evidence of other forms of human trafficking; authorities made no trafficking prosecutions or convictions and made modest efforts to assist a couple of child sex trafficking victims; officials sustained an extensive public awareness campaign to prevent child sex trafficking, but no efforts were made to raise awareness or reduce demand for forced adult or child labor
+			</tier-rating>
+		</trafficking>
+		<illict-drugs>
+			consumer and transshipment point for heroin from South Asia; small amounts of cannabis produced and consumed locally; significant offshore financial industry creates potential for money laundering, but corruption levels are relatively low and the government appears generally to be committed to regulating its banking industry
+		</illict-drugs>
+	</transnational-issues>
+</country>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE country [
+	<!ELEMENT country ANY>
+	<!ENTITY indonesia SYSTEM "file:///home/stefi/Dokumenty/BI-XML/semester_work/xml/indonesia.xml">
+	<!ENTITY mexico SYSTEM "file:///home/stefi/Dokumenty/BI-XML/semester_work/xml/mexico.xml">
+	<!ENTITY mauritius SYSTEM "file:///home/stefi/Dokumenty/BI-XML/semester_work/xml/mauritius.xml">
+]>
+
+<countries>
+&indonesia;
+&mexico;
+&mauritius;
+</countries>

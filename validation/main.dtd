@@ -1,0 +1,567 @@
+<!-- COUNTRY -->
+<!ELEMENT country (images, background, geography, people-society, government, economy, energy, communications, transportation, military-security, transnational-issues)>
+<!ATTLIST country iso-code ID #REQUIRED>
+
+<!-- IMAGES -->
+<!ELEMENT images (image)+>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image source CDATA #REQUIRED>
+<!ATTLIST image caption CDATA #IMPLIED>
+<!-- /IMAGES -->
+
+<!-- BACKGROUND -->
+<!ELEMENT background (#PCDATA)>
+<!-- /BACKGROUND -->
+
+<!-- GEOGRAPHY -->
+<!ELEMENT geography (location, map-references, area, area-comparative, land-boundaries?, coastline?, maritime-claims, climate, terrain, elevation, natural-resources, land-use, irrigated-land, population?, natural-hazards, environment, note)>
+<!ATTLIST geography coordinate-s CDATA #IMPLIED>
+<!ATTLIST geography coordinate-e CDATA #IMPLIED>
+<!ATTLIST geography coordinate-n CDATA #IMPLIED>
+<!ATTLIST geography coordinate-w CDATA #IMPLIED>
+<!ELEMENT location EMPTY>
+<!ATTLIST location value CDATA #REQUIRED>
+<!ELEMENT map-references EMPTY>
+<!ATTLIST map-references value CDATA #REQUIRED>
+<!ELEMENT area EMPTY>
+<!ATTLIST area land CDATA #IMPLIED>
+<!ATTLIST area note CDATA #IMPLIED>
+<!ATTLIST area water CDATA #IMPLIED>
+<!ATTLIST area unit CDATA #FIXED "sq km">
+<!ELEMENT area-comparative EMPTY>
+<!ATTLIST area-comparative value CDATA #REQUIRED>
+<!ATTLIST area-comparative area-comparison-map CDATA #REQUIRED>
+<!ELEMENT coastline EMPTY>
+<!ATTLIST coastline value CDATA #REQUIRED>
+<!ELEMENT land-boundaries (border-countries?)>
+<!ELEMENT border-countries (state+)>
+<!ATTLIST border-countries unit CDATA #FIXED "km">
+<!ELEMENT state EMPTY>
+<!ATTLIST state name CDATA #REQUIRED>
+<!ATTLIST state total CDATA #REQUIRED>
+<!ELEMENT maritime-claims EMPTY>
+<!ATTLIST maritime-claims value CDATA #IMPLIED>
+<!ATTLIST maritime-claims territorial-sea CDATA #REQUIRED>
+<!ATTLIST maritime-claims exclusive-economic-zone CDATA #REQUIRED>
+<!ATTLIST maritime-claims unit CDATA #FIXED "nm">
+<!ATTLIST maritime-claims zone CDATA #IMPLIED>
+<!ATTLIST maritime-claims continental-shelf CDATA #IMPLIED>
+<!ATTLIST maritime-claims contiguous-zone CDATA #IMPLIED>
+<!ELEMENT climate EMPTY>
+<!ATTLIST climate value CDATA #REQUIRED>
+<!ELEMENT terrain EMPTY>
+<!ATTLIST terrain value CDATA #REQUIRED>
+<!ELEMENT elevation EMPTY>
+<!ATTLIST elevation unit CDATA #FIXED "m">
+<!ATTLIST elevation mean-elevation CDATA #REQUIRED>
+<!ATTLIST elevation lowest-point CDATA #REQUIRED>
+<!ATTLIST elevation highest-point CDATA #REQUIRED>
+<!ELEMENT natural-resources EMPTY>
+<!ATTLIST natural-resources value CDATA #REQUIRED>
+<!ELEMENT land-use EMPTY>
+<!ATTLIST land-use arable-land CDATA #REQUIRED>
+<!ATTLIST land-use permanent-crops CDATA #REQUIRED>
+<!ATTLIST land-use permanent-pasture CDATA #REQUIRED>
+<!ATTLIST land-use forest CDATA #REQUIRED>
+<!ATTLIST land-use other CDATA #IMPLIED>
+<!ATTLIST land-use unit CDATA #FIXED "%">
+<!ELEMENT irrigated-land EMPTY>
+<!ATTLIST irrigated-land value CDATA #REQUIRED>
+<!ELEMENT population (#PCDATA)>
+<!ELEMENT natural-hazards (volcanism?)>
+<!ATTLIST natural-hazards value CDATA #REQUIRED>
+<!ELEMENT volcanism (#PCDATA)>
+<!ELEMENT environment EMPTY>
+<!ATTLIST environment current-issues CDATA #REQUIRED>
+<!ATTLIST environment party-to CDATA #REQUIRED>
+<!ATTLIST environment not-ratified CDATA #REQUIRED>
+<!ELEMENT note (#PCDATA)>
+<!-- /GEOGRAPHY -->
+
+<!-- PEOPLE SOCIETY -->
+<!ELEMENT people-society (people, nationality, ethnic-groups, languages, religions, demographic?, age-structure, dependency-ratios, median-age, population-growth-rate, birth-rate, death-rate, net-migration-rate, population-distribution?, urbanization, major-urban-areas, sex-ratio, mothers-age-birth?, maternal-mortality-rate, infant-mortality-rate, life-expectancy-at-birth, total-fertility-rate, contraceptive-rate?, health-expenditures, physicians-density, hospital-bed-density, drinking-water-source, sanitation-facility-access, hiv-aids, major-infections-deseases?, obesity, children-underweight?, education-expenditures, literacy, school-life, child-labor?, unemployment)>
+<!ELEMENT people (#PCDATA)>
+<!ELEMENT nationality EMPTY>
+<!ATTLIST nationality noun CDATA #REQUIRED>
+<!ATTLIST nationality adjective CDATA #REQUIRED>
+<!ELEMENT ethnic-groups (ethnic-group+)>
+<!ELEMENT ethnic-group (#PCDATA)>
+<!ATTLIST ethnic-group percentage CDATA #REQUIRED>
+<!ELEMENT languages (language+)>
+<!ATTLIST languages note CDATA #IMPLIED>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT religions (religion+)>
+<!ELEMENT religion (#PCDATA)>
+<!ATTLIST religion percentage CDATA #REQUIRED>
+<!ELEMENT demographic (#PCDATA)>
+<!ELEMENT age-structure (structure+)>
+<!ATTLIST age-structure image CDATA #REQUIRED>
+<!ATTLIST age-structure image-title CDATA #REQUIRED>
+<!ELEMENT structure EMPTY>
+<!ATTLIST structure structure CDATA #REQUIRED>
+<!ATTLIST structure percentage CDATA #REQUIRED>
+<!ATTLIST structure male CDATA #REQUIRED>
+<!ATTLIST structure female CDATA #REQUIRED>
+<!ELEMENT dependency-ratios EMPTY>
+<!ATTLIST dependency-ratios unit CDATA #REQUIRED>
+<!ATTLIST dependency-ratios youth CDATA #REQUIRED>
+<!ATTLIST dependency-ratios elderly CDATA #REQUIRED>
+<!ATTLIST dependency-ratios potential-support CDATA #REQUIRED>
+<!ELEMENT median-age EMPTY>
+<!ATTLIST median-age unit CDATA #FIXED "years">
+<!ATTLIST median-age male CDATA #REQUIRED>
+<!ATTLIST median-age female CDATA #REQUIRED>
+<!ELEMENT population-growth-rate (#PCDATA)>
+<!ELEMENT birth-rate (#PCDATA)>
+<!ELEMENT death-rate (#PCDATA)>
+<!ELEMENT net-migration-rate (#PCDATA)>
+<!ELEMENT population-distribution (#PCDATA)>
+<!ELEMENT urbanization (urban-population, rate-of-urbanization)>
+<!ELEMENT urban-population (#PCDATA)>
+<!ELEMENT rate-of-urbanization (#PCDATA)>
+<!ELEMENT major-urban-areas (areas+)>
+<!ATTLIST major-urban-areas unit CDATA #REQUIRED>
+<!ELEMENT areas (#PCDATA)>
+<!ATTLIST areas population CDATA #REQUIRED>
+<!ELEMENT sex-ratio (ratio+)>
+<!ATTLIST sex-ratio unit CDATA #FIXED "male(s)/female">
+<!ATTLIST sex-ratio total-population CDATA #FIXED "1">
+<!ELEMENT ratio (#PCDATA)>
+<!ATTLIST ratio value CDATA #REQUIRED>
+<!ELEMENT mothers-age-birth EMPTY>
+<!ATTLIST mothers-age-birth age CDATA #REQUIRED>
+<!ATTLIST mothers-age-birth note CDATA #IMPLIED>
+<!ELEMENT maternal-mortality-rate EMPTY>
+<!ATTLIST maternal-mortality-rate value CDATA #REQUIRED>
+<!ELEMENT infant-mortality-rate EMPTY>
+<!ATTLIST infant-mortality-rate unit CDATA #FIXED "deaths/1,000 live births">
+<!ATTLIST infant-mortality-rate male CDATA #REQUIRED>
+<!ATTLIST infant-mortality-rate female CDATA #REQUIRED>
+<!ELEMENT life-expectancy-at-birth EMPTY>
+<!ATTLIST life-expectancy-at-birth unit CDATA #FIXED "years">
+<!ATTLIST life-expectancy-at-birth male CDATA #REQUIRED>
+<!ATTLIST life-expectancy-at-birth female CDATA #REQUIRED>
+<!ELEMENT total-fertility-rate EMPTY>
+<!ATTLIST total-fertility-rate value CDATA #REQUIRED>
+<!ELEMENT contraceptive-rate EMPTY>
+<!ATTLIST contraceptive-rate value CDATA #REQUIRED>
+<!ELEMENT health-expenditures EMPTY>
+<!ATTLIST health-expenditures value CDATA #REQUIRED>
+<!ELEMENT physicians-density EMPTY>
+<!ATTLIST physicians-density value CDATA #REQUIRED>
+<!ELEMENT hospital-bed-density EMPTY>
+<!ATTLIST hospital-bed-density value CDATA #REQUIRED>
+<!ELEMENT drinking-water-source (improved, unimproved)>
+<!ATTLIST drinking-water-source unit CDATA #FIXED "% of population">
+<!ELEMENT improved EMPTY>
+<!ATTLIST improved urban CDATA #REQUIRED>
+<!ATTLIST improved rural CDATA #REQUIRED>
+<!ATTLIST improved total CDATA #REQUIRED>
+<!ELEMENT unimproved EMPTY>
+<!ATTLIST unimproved urban CDATA #REQUIRED>
+<!ATTLIST unimproved rural CDATA #REQUIRED>
+<!ATTLIST unimproved total CDATA #REQUIRED>
+<!ELEMENT sanitation-facility-access (improve, unimprove)>
+<!ATTLIST sanitation-facility-access unit CDATA #FIXED "% of population">
+<!ELEMENT improve EMPTY>
+<!ATTLIST improve urban CDATA #REQUIRED>
+<!ATTLIST improve rural CDATA #REQUIRED>
+<!ATTLIST improve total CDATA #REQUIRED>
+<!ELEMENT unimprove EMPTY>
+<!ATTLIST unimprove urban CDATA #REQUIRED>
+<!ATTLIST unimprove rural CDATA #REQUIRED>
+<!ATTLIST unimprove total CDATA #REQUIRED>
+<!ELEMENT hiv-aids (rate, living-with, deaths)>
+<!ELEMENT rate EMPTY>
+<!ATTLIST rate value CDATA #REQUIRED>
+<!ELEMENT living-with EMPTY>
+<!ATTLIST living-with value CDATA #REQUIRED>
+<!ELEMENT deaths EMPTY>
+<!ATTLIST deaths value CDATA #REQUIRED>
+<!ELEMENT major-infections-deseases (desease+)>
+<!ATTLIST major-infections-deseases degree-of-risk CDATA #REQUIRED>
+<!ATTLIST major-infections-deseases note CDATA #IMPLIED>
+<!ELEMENT desease (#PCDATA)>
+<!ELEMENT obesity EMPTY>
+<!ATTLIST obesity percentage CDATA #REQUIRED>
+<!ELEMENT children-underweight EMPTY>
+<!ATTLIST children-underweight description CDATA #FIXED "under the age of 5 years">
+<!ATTLIST children-underweight percentage CDATA #REQUIRED>
+<!ELEMENT education-expenditures EMPTY>
+<!ATTLIST education-expenditures value CDATA #REQUIRED>
+<!ELEMENT literacy EMPTY>
+<!ATTLIST literacy unit CDATA #FIXED "%">
+<!ATTLIST literacy definition CDATA #FIXED "age 15 and over can read and write">
+<!ATTLIST literacy male CDATA #REQUIRED>
+<!ATTLIST literacy female CDATA #REQUIRED>
+<!ELEMENT school-life EMPTY>
+<!ATTLIST school-life description CDATA #FIXED "primary to tertiary education">
+<!ATTLIST school-life unit CDATA #FIXED "years">
+<!ATTLIST school-life total CDATA #REQUIRED>
+<!ATTLIST school-life male CDATA #REQUIRED>
+<!ATTLIST school-life female CDATA #REQUIRED>
+<!ELEMENT child-labor EMPTY>
+<!ATTLIST child-labor description CDATA #FIXED "children ages 5-14">
+<!ATTLIST child-labor value CDATA #REQUIRED>
+<!ATTLIST child-labor percentage CDATA #REQUIRED>
+<!ATTLIST child-labor note CDATA #IMPLIED>
+<!ELEMENT unemployment EMPTY>
+<!ATTLIST unemployment description CDATA #FIXED "youth ages 15-24">
+<!ATTLIST unemployment unit CDATA #FIXED "%">
+<!ATTLIST unemployment total CDATA #REQUIRED>
+<!ATTLIST unemployment male CDATA #REQUIRED>
+<!ATTLIST unemployment female CDATA #REQUIRED>
+<!-- /PEOPLE SOCIETY -->
+
+<!-- GOVERNMENT -->
+<!ELEMENT government (country-name, capital, administrative-divisions, independence, national-holiday, constitution, legal-system, international-law, citizenship, suffrage, executive-branch, legislative-branch, judicial-branch, political-parties, political-pressure, international-participation-organization, diplomatic-representation, flag, national-symbols, national-anthem)>
+<!ATTLIST government type CDATA #REQUIRED>
+<!ELEMENT country-name EMPTY>
+<!ATTLIST country-name long-form CDATA #REQUIRED>
+<!ATTLIST country-name short-form CDATA #REQUIRED>
+<!ATTLIST country-name local-long-form CDATA #REQUIRED>
+<!ATTLIST country-name local-short-form CDATA #REQUIRED>
+<!ATTLIST country-name former CDATA #IMPLIED>
+<!ATTLIST country-name etymology CDATA #IMPLIED>
+<!ATTLIST country-name note CDATA #IMPLIED>
+<!ELEMENT capital (#PCDATA)>
+<!ATTLIST capital coordinate-e CDATA #IMPLIED>
+<!ATTLIST capital coordinate-s CDATA #IMPLIED>
+<!ATTLIST capital coordinate-w CDATA #IMPLIED>
+<!ATTLIST capital coordinate-n CDATA #IMPLIED>
+<!ATTLIST capital note CDATA #IMPLIED>
+<!ATTLIST capital daylight CDATA #IMPLIED>
+<!ATTLIST capital time CDATA #REQUIRED>
+<!ELEMENT administrative-divisions (#PCDATA)>
+<!ATTLIST administrative-divisions note CDATA #IMPLIED>
+<!ELEMENT independence EMPTY>
+<!ATTLIST independence date CDATA #REQUIRED>
+<!ELEMENT national-holiday (holiday+)>
+<!ELEMENT holiday EMPTY>
+<!ATTLIST holiday name CDATA #REQUIRED>
+<!ATTLIST holiday date CDATA #REQUIRED>
+<!ELEMENT constitution (#PCDATA)>
+<!ELEMENT legal-system (#PCDATA)>
+<!ELEMENT international-law (#PCDATA)>
+<!ELEMENT citizenship EMPTY>
+<!ATTLIST citizenship by-birth (yes|no) #REQUIRED>
+<!ATTLIST citizenship by-descent-only CDATA #REQUIRED>
+<!ATTLIST citizenship dual-citizenship-recognized CDATA #REQUIRED>
+<!ATTLIST citizenship residency-requirement-for-naturalization CDATA #REQUIRED>
+<!ELEMENT suffrage (#PCDATA)>
+<!ELEMENT executive-branch (chief-of-state, head-of-government, cabinet, elections-appointments, election-results)>
+<!ELEMENT chief-of-state EMPTY>
+<!ATTLIST chief-of-state value CDATA #REQUIRED>
+<!ELEMENT head-of-government EMPTY>
+<!ATTLIST head-of-government value CDATA #REQUIRED>
+<!ELEMENT cabinet EMPTY>
+<!ATTLIST cabinet value CDATA #REQUIRED>
+<!ELEMENT elections-appointments EMPTY>
+<!ATTLIST elections-appointments value CDATA #REQUIRED>
+<!ELEMENT election-results EMPTY>
+<!ATTLIST election-results value CDATA #REQUIRED>
+<!ELEMENT legislative-branch (description, legislative-note?, elections, election-result)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT legislative-note (#PCDATA)>
+<!ELEMENT elections (#PCDATA)>
+<!ELEMENT election-result (#PCDATA)>
+<!ELEMENT judicial-branch (highest-court, judge-selection, subordinate-courts)>
+<!ELEMENT highest-court (#PCDATA)>
+<!ELEMENT judge-selection (#PCDATA)>
+<!ELEMENT subordinate-courts (#PCDATA)>
+<!ELEMENT political-parties (party+)>
+<!ELEMENT party EMPTY>
+<!ATTLIST party name CDATA #REQUIRED>
+<!ATTLIST party leader CDATA #REQUIRED>
+<!ATTLIST party short CDATA #IMPLIED>
+<!ELEMENT political-pressure (#PCDATA)>
+<!ATTLIST political-pressure other CDATA #IMPLIED>
+<!ELEMENT international-participation-organization (#PCDATA)>
+<!ELEMENT diplomatic-representation (in-us, from-us)>
+<!ELEMENT in-us EMPTY>
+<!ATTLIST in-us chief-of-commision CDATA #REQUIRED>
+<!ATTLIST in-us chancery CDATA #REQUIRED>
+<!ATTLIST in-us telephone CDATA #REQUIRED>
+<!ATTLIST in-us fax CDATA #REQUIRED>
+<!ATTLIST in-us consulate-general CDATA #IMPLIED>
+<!ATTLIST in-us consulates CDATA #IMPLIED>
+<!ELEMENT from-us EMPTY>
+<!ATTLIST from-us chief-of-commision CDATA #REQUIRED>
+<!ATTLIST from-us embassy CDATA #REQUIRED>
+<!ATTLIST from-us mailing-address CDATA #REQUIRED>
+<!ATTLIST from-us telephone CDATA #REQUIRED>
+<!ATTLIST from-us fax CDATA #REQUIRED>
+<!ATTLIST from-us consulate-general CDATA #IMPLIED>
+<!ATTLIST from-us consulate CDATA #IMPLIED>
+<!ATTLIST from-us consular-agency CDATA #IMPLIED>
+<!ELEMENT flag EMPTY>
+<!ATTLIST flag description CDATA #REQUIRED>
+<!ATTLIST flag note CDATA #IMPLIED>
+<!ELEMENT national-symbols EMPTY>
+<!ATTLIST national-symbols symbol CDATA #REQUIRED>
+<!ATTLIST national-symbols national-colors CDATA #REQUIRED>
+<!ELEMENT national-anthem EMPTY>
+<!ATTLIST national-anthem name CDATA #REQUIRED>
+<!ATTLIST national-anthem lyrics CDATA #REQUIRED>
+<!ATTLIST national-anthem note CDATA #IMPLIED>
+<!ATTLIST national-anthem source CDATA #REQUIRED>
+<!-- /GOVERNMENT -->
+
+<!-- ECONOMY -->
+<!ELEMENT economy (overview, gdps, agriculture, industries, industrial-production, labor-force, unemploy, poverty-line, household, distribution-of-family, budget, taxes, public-debt, fiscal-year, inflation-rate, bank-discount-rate, bank-lending-rate, stock-of-narrow-money, stock-of-broad-money, stock-of-domestic-credit, market-value, current-account, exports, imports, reserves, debt-external, stock-of-investment, exchange-rates)>
+<!ELEMENT overview (#PCDATA)>
+<!ELEMENT gdps (gdp+, real-growth-rate, per-capita, gross-national, composition-end-use, composition-end-sector)>
+<!ATTLIST gdps note CDATA #FIXED "data are in 2015 US dollars">
+<!ATTLIST gdps exchange-rate CDATA #REQUIRED>
+<!ELEMENT gdp (#PCDATA)>
+<!ATTLIST gdp unit CDATA #FIXED "$">
+<!ATTLIST gdp value CDATA #REQUIRED>
+<!ATTLIST gdp to CDATA #REQUIRED>
+<!ELEMENT real-growth-rate (growth-rate+)>
+<!ATTLIST real-growth-rate unit CDATA #FIXED "%">
+<!ELEMENT growth-rate (#PCDATA)>
+<!ATTLIST growth-rate to CDATA #REQUIRED>
+<!ELEMENT per-capita (capita+)>
+<!ATTLIST per-capita unit CDATA #FIXED "$">
+<!ATTLIST per-capita note CDATA #FIXED "data are in 2015 US dollars">
+<!ELEMENT capita (#PCDATA)>
+<!ATTLIST capita to CDATA #REQUIRED>
+<!ELEMENT gross-national (gross+)>
+<!ATTLIST gross-national unit CDATA #FIXED "% of GDP">
+<!ELEMENT gross (#PCDATA)>
+<!ATTLIST gross to CDATA #REQUIRED>
+<!ELEMENT composition-end-use EMPTY>
+<!ATTLIST composition-end-use unit CDATA #FIXED "%">
+<!ATTLIST composition-end-use household CDATA #REQUIRED>
+<!ATTLIST composition-end-use government CDATA #REQUIRED>
+<!ATTLIST composition-end-use investment-capital CDATA #REQUIRED>
+<!ATTLIST composition-end-use investment-inventories CDATA #REQUIRED>
+<!ATTLIST composition-end-use exports CDATA #REQUIRED>
+<!ATTLIST composition-end-use imports CDATA #REQUIRED>
+<!ELEMENT composition-end-sector EMPTY>
+<!ATTLIST composition-end-sector unit CDATA #FIXED "%">
+<!ATTLIST composition-end-sector agriculture CDATA #REQUIRED>
+<!ATTLIST composition-end-sector industry CDATA #REQUIRED>
+<!ATTLIST composition-end-sector services CDATA #REQUIRED>
+<!ELEMENT agriculture EMPTY>
+<!ATTLIST agriculture products CDATA #REQUIRED>
+<!ELEMENT industries EMPTY>
+<!ATTLIST industries value CDATA #REQUIRED>
+<!ELEMENT industrial-production EMPTY>
+<!ATTLIST industrial-production rate CDATA #REQUIRED>
+<!ELEMENT labor-force (#PCDATA)>
+<!ATTLIST labor-force unit CDATA #FIXED "%">
+<!ATTLIST labor-force agriculture CDATA #IMPLIED>
+<!ATTLIST labor-force industry CDATA #IMPLIED>
+<!ATTLIST labor-force services CDATA #IMPLIED>
+<!ATTLIST labor-force communication CDATA #IMPLIED>
+<!ATTLIST labor-force trtade CDATA #IMPLIED>
+<!ATTLIST labor-force finance CDATA #IMPLIED>
+<!ATTLIST labor-force other CDATA #IMPLIED>
+<!ELEMENT unemploy (u-rate+)>
+<!ATTLIST unemploy unit CDATA #FIXED "%">
+<!ELEMENT u-rate (#PCDATA)>
+<!ATTLIST u-rate to CDATA #REQUIRED>
+<!ELEMENT poverty-line EMPTY>
+<!ATTLIST poverty-line percentage CDATA #REQUIRED>
+<!ATTLIST poverty-line note CDATA #IMPLIED>
+<!ELEMENT household EMPTY>
+<!ATTLIST household unit CDATA #FIXED "%">
+<!ATTLIST household lowest CDATA #REQUIRED>
+<!ATTLIST household highest CDATA #REQUIRED>
+<!ELEMENT distribution-of-family (distribution+)>
+<!ELEMENT distribution (#PCDATA)>
+<!ATTLIST distribution to CDATA #REQUIRED>
+<!ELEMENT budget EMPTY>
+<!ATTLIST budget surplus-deficit CDATA #REQUIRED>
+<!ATTLIST budget revenues CDATA #REQUIRED>
+<!ATTLIST budget expenditures CDATA #REQUIRED>
+<!ELEMENT taxes EMPTY>
+<!ATTLIST taxes value CDATA #REQUIRED>
+<!ELEMENT public-debt (debt+)>
+<!ATTLIST public-debt unit CDATA #FIXED "% of GDP">
+<!ELEMENT debt (#PCDATA)>
+<!ATTLIST debt to CDATA #REQUIRED>
+<!ELEMENT fiscal-year EMPTY>
+<!ATTLIST fiscal-year value CDATA #REQUIRED>
+<!ELEMENT inflation-rate (i-rate+)>
+<!ATTLIST inflation-rate unit CDATA #FIXED "%">
+<!ELEMENT i-rate (#PCDATA)>
+<!ATTLIST i-rate to CDATA #REQUIRED>
+<!ELEMENT bank-discount-rate (b-rate+)>
+<!ATTLIST bank-discount-rate unit CDATA #FIXED "%">
+<!ATTLIST bank-discount-rate note CDATA #IMPLIED>
+<!ELEMENT b-rate (#PCDATA)>
+<!ATTLIST b-rate to CDATA #REQUIRED>
+<!ELEMENT bank-lending-rate (b-rate+)>
+<!ATTLIST bank-lending-rate unit CDATA #FIXED "%">
+<!ATTLIST bank-lending-rate note CDATA #IMPLIED>
+<!ELEMENT stock-of-narrow-money (money+)>
+<!ATTLIST stock-of-narrow-money value CDATA #REQUIRED>
+<!ATTLIST stock-of-narrow-money unit CDATA #FIXED "$">
+<!ELEMENT money (#PCDATA)>
+<!ATTLIST money to CDATA #IMPLIED>
+<!ELEMENT stock-of-broad-money (money+)>
+<!ATTLIST stock-of-broad-money unit CDATA #FIXED "$">
+<!ATTLIST stock-of-broad-money value CDATA #REQUIRED>
+<!ELEMENT stock-of-domestic-credit (money+)>
+<!ATTLIST stock-of-domestic-credit unit CDATA #FIXED "$">
+<!ATTLIST stock-of-domestic-credit value CDATA #REQUIRED>
+<!ELEMENT market-value (money+)>
+<!ATTLIST market-value unit CDATA #FIXED "$">
+<!ATTLIST market-value value CDATA #REQUIRED>
+<!ELEMENT current-account (money+)>
+<!ATTLIST current-account unit CDATA #FIXED "$">
+<!ATTLIST current-account value CDATA #REQUIRED>
+<!ELEMENT exports (money+, partners)>
+<!ATTLIST exports unit CDATA #FIXED "$">
+<!ATTLIST exports value CDATA #REQUIRED>
+<!ATTLIST exports commodities CDATA #REQUIRED>
+<!ELEMENT partners (partner+)>
+<!ELEMENT partner (#PCDATA)>
+<!ATTLIST partner percentage CDATA #REQUIRED>
+<!ELEMENT imports (money+, partners)>
+<!ATTLIST imports unit CDATA #FIXED "$">
+<!ATTLIST imports value CDATA #REQUIRED>
+<!ATTLIST imports commodities CDATA #REQUIRED>
+<!ELEMENT reserves (money+)>
+<!ATTLIST reserves unit CDATA #FIXED "$">
+<!ATTLIST reserves value CDATA #REQUIRED>
+<!ELEMENT debt-external (money+)>
+<!ATTLIST debt-external unit CDATA #FIXED "$">
+<!ATTLIST debt-external value CDATA #REQUIRED>
+<!ELEMENT stock-of-investment (at-home, abroad)>
+<!ATTLIST stock-of-investment unit CDATA #FIXED "$">
+<!ATTLIST stock-of-investment value CDATA #IMPLIED>
+<!ELEMENT at-home (money+)>
+<!ELEMENT abroad (money+)>
+<!ELEMENT exchange-rates (money+)>
+<!ATTLIST exchange-rates description CDATA #REQUIRED>
+<!-- /ECONOMY -->
+
+<!-- ENERGY -->
+<!ELEMENT energy (electricity, crude-oil, petroleum-products, natural-gas, carbon-dioxide)>
+<!ELEMENT electricity (e-access, e-production, e-consuption, e-exports, e-imports, e-generating-capacity, e-fossil-fuels, e-nuclear-fuels?, e-hydroelectric-plants?, e-sources)>
+<!ELEMENT e-access EMPTY>
+<!ATTLIST e-access population-without CDATA #REQUIRED>
+<!ATTLIST e-access total CDATA #REQUIRED>
+<!ATTLIST e-access urban-areas CDATA #IMPLIED>
+<!ATTLIST e-access rural-areas CDATA #IMPLIED>
+<!ELEMENT e-production EMPTY>
+<!ATTLIST e-production value CDATA #REQUIRED>
+<!ELEMENT e-consuption EMPTY>
+<!ATTLIST e-consuption value CDATA #REQUIRED>
+<!ELEMENT e-exports EMPTY>
+<!ATTLIST e-exports value CDATA #REQUIRED>
+<!ELEMENT e-imports EMPTY>
+<!ATTLIST e-imports value CDATA #REQUIRED>
+<!ELEMENT e-generating-capacity EMPTY>
+<!ATTLIST e-generating-capacity value CDATA #REQUIRED>
+<!ELEMENT e-fossil-fuels EMPTY>
+<!ATTLIST e-fossil-fuels percentage CDATA #REQUIRED>
+<!ATTLIST e-fossil-fuels note CDATA #IMPLIED>
+<!ELEMENT e-nuclear-fuels EMPTY>
+<!ATTLIST e-nuclear-fuels value CDATA #REQUIRED>
+<!ATTLIST e-nuclear-fuels unit CDATA #REQUIRED>
+<!ATTLIST e-nuclear-fuels note CDATA #IMPLIED>
+<!ELEMENT e-sources EMPTY>
+<!ATTLIST e-sources percentage CDATA #REQUIRED>
+<!ATTLIST e-sources note CDATA #IMPLIED>
+<!ELEMENT e-hydroelectric-plants EMPTY>
+<!ATTLIST e-hydroelectric-plants percentage CDATA #REQUIRED>
+<!ATTLIST e-hydroelectric-plants note CDATA #IMPLIED>
+<!ELEMENT crude-oil (e-production, e-exports, e-imports, e-proved-reserves)>
+<!ELEMENT e-proved-reserves EMPTY>
+<!ATTLIST e-proved-reserves value CDATA #REQUIRED>
+<!ELEMENT petroleum-products (e-production, e-consuption, e-exports, e-imports)>
+<!ELEMENT natural-gas (e-production, e-consuption, e-exports, e-imports, e-proved-reserves)>
+<!ELEMENT carbon-dioxide EMPTY>
+<!ATTLIST carbon-dioxide value CDATA #REQUIRED>
+<!-- /ENERGY -->
+
+<!-- COMMUNICATIONS -->
+<!ELEMENT communications (telephones, broadcast-media, internet)>
+<!ELEMENT telephones (fixed, mobile, system)>
+<!ELEMENT fixed EMPTY>
+<!ATTLIST fixed total CDATA #REQUIRED>
+<!ELEMENT mobile EMPTY>
+<!ATTLIST mobile total CDATA #REQUIRED>
+<!ELEMENT system (general-assessment, domestic, international)>
+<!ELEMENT general-assessment (#PCDATA)>
+<!ELEMENT domestic (#PCDATA)>
+<!ELEMENT international (#PCDATA)>
+<!ELEMENT broadcast-media (#PCDATA)>
+<!ELEMENT internet (users)>
+<!ATTLIST internet country-code CDATA #REQUIRED>
+<!ELEMENT users EMPTY>
+<!ATTLIST users total CDATA #REQUIRED>
+<!ATTLIST users percentage CDATA #REQUIRED>
+<!-- /COMMUNICATIONS -->
+
+<!-- TRANSPORTATION -->
+<!ELEMENT transportation (national-air, civil-aircraft, airports, heliports?, pipelines?, railways?, roadways?, waterways?, merchant-marine, ports-terminals, note?)>
+<!ELEMENT national-air EMPTY>
+<!ATTLIST national-air number-of-registered CDATA #REQUIRED>
+<!ATTLIST national-air inventory-of-registered CDATA #REQUIRED>
+<!ATTLIST national-air annual-passenger-traffic CDATA #REQUIRED>
+<!ATTLIST national-air annual-freight-traffic CDATA #REQUIRED>
+<!ELEMENT civil-aircraft EMPTY>
+<!ATTLIST civil-aircraft country-coude-prefix CDATA #REQUIRED>
+<!ELEMENT airports (paved-runways, unpaved-runways)>
+<!ELEMENT paved-runways (runway+)>
+<!ELEMENT runway EMPTY>
+<!ATTLIST runway description CDATA #REQUIRED>
+<!ATTLIST runway value CDATA #REQUIRED>
+<!ELEMENT unpaved-runways (runway+)>
+<!ELEMENT heliports EMPTY>
+<!ATTLIST heliports value CDATA #REQUIRED>
+<!ELEMENT pipelines (#PCDATA)>
+<!ELEMENT railways EMPTY>
+<!ATTLIST railways narrow-gauge CDATA #REQUIRED>
+<!ATTLIST railways note CDATA #IMPLIED>
+<!ELEMENT roadways EMPTY>
+<!ATTLIST roadways unit CDATA #FIXED "km">
+<!ATTLIST roadways paved CDATA #REQUIRED>
+<!ATTLIST roadways unpaved CDATA #REQUIRED>
+<!ELEMENT waterways EMPTY>
+<!ATTLIST waterways note CDATA #IMPLIED>
+<!ATTLIST waterways value CDATA #REQUIRED>
+<!ELEMENT merchant-marine (by-type, foreign-owned?, registered-in-other-countries?)>
+<!ELEMENT by-type (#PCDATA)>
+<!ELEMENT foreign-owned (#PCDATA)>
+<!ELEMENT registered-in-other-countries (#PCDATA)>
+<!ELEMENT ports-terminals (major-seaports, container-ports?, oil-terminals?, lng-terminals-export?, lng-terminals-import?, cruise-ports?)>
+<!ELEMENT major-seaports (seaport+)>
+<!ELEMENT seaport (#PCDATA)>
+<!ELEMENT container-ports (port+)>
+<!ELEMENT port (#PCDATA)>
+<!ATTLIST port value CDATA #IMPLIED>
+<!ELEMENT oil-terminals (terminal+)>
+<!ELEMENT terminal (#PCDATA)>
+<!ELEMENT lng-terminals-export (terminal+)>
+<!ELEMENT lng-terminals-import (terminal+)>
+<!ELEMENT cruise-ports (port+)>
+<!-- /TRANSPORTATION -->
+
+<!-- MILITARY SECURITY -->
+<!ELEMENT military-security (branches, service-age?, expenditures)>
+<!ELEMENT branches (#PCDATA)>
+<!ELEMENT service-age (#PCDATA)>
+<!ELEMENT expenditures (expenditure+)>
+<!ATTLIST expenditures unit CDATA #FIXED "% of GDP">
+<!ELEMENT expenditure EMPTY>
+<!ATTLIST expenditure to CDATA #REQUIRED>
+<!ATTLIST expenditure value CDATA #REQUIRED>
+<!-- /MILITARY SECURITY -->
+
+<!-- TRANSNATIONAL ISSUES -->
+<!ELEMENT transnational-issues (disputes, trafficking?, refugees?, illict-drugs)>
+<!ELEMENT disputes (#PCDATA)>
+<!ELEMENT trafficking (current-situation, tier-rating)>
+<!ELEMENT current-situation (#PCDATA)>
+<!ELEMENT tier-rating (#PCDATA)>
+<!ELEMENT refugees EMPTY>
+<!ATTLIST refugees idps CDATA #REQUIRED>
+<!ATTLIST refugees stateless-persons CDATA #IMPLIED>
+<!ELEMENT illict-drugs (#PCDATA)>
+<!-- /TRANSNATIONAL ISSUES -->

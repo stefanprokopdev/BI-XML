@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<country iso-code="id">
+	<images>
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_008.jpg" caption="This true-color image of some of the Indonesian islands is from mid-May 2002. Fire season was not fully underway in the region, and skies over the large island of Borneo (top) were partially cloud-covered, but not hazy with air pollution. The horizontally situated island of Java appears to be experiencing some haze at its western end, and a few scattered fires (red dots) are apparent. Image courtesy of NASA." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_010.jpg" caption="Nestled between the large Indonesian islands of Java and Sumatra is the Krakatau Volcano National Park. In the 4th century, a single marine volcano stood at this site, but in A.D. 416, the caldera of the volcano collapsed. The remnants formed a new caldera around 7 km (4 mi) in diameter, with the peak's remnants becoming the three islands of Verlaten, Lang, and Krakatau (formerly known as Krakatoa). This volcano remnant was not dormant, however, and in August 1883 the volcano on Krakatau erupted with such violence that the sound was heard as far away as Madagscar and Alice Springs (central Australia), thousands of kilometers away. Two-thirds of the island was destroyed and roughly 20 cu km of rock was lofted into the atmosphere. It was one of the largest explosions on Earth in recorded history. The eruption also raised a tsunami 40 m (130 ft) high which resulted in an estimated 36,000 deaths when it washed ashore as much as 10 km inland from the coast of nearby islands. Since 1927, continued eruptions and outflow material has formed the fourth island in the park, Anak Krakatau - 'Child of Krakatau.' Image courtesy of NASA." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_007.jpg" caption="The thick brown plume of ash, steam, and volcanic gas rising from Anak Krakatau in this true-color image is a common sight at the volcano. Responsible for one of the largest and most destructive eruptions in Indonesia's history (1883), Krakatau still erupts frequently. For this reason, the volcano is one of 100 that NASA automatically monitors by satellite. Photo courtesy of NASA." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_006.jpg" caption="Southeast of the island of Timor (center), a phytoplankton bloom is coloring the waters of the Timor Sea, which separates Timor from northwestern Australia. To the north of Timor is Flores, which is home to numerous active volcanoes. (The red dots are due to fire, not volcanic activity.) The eastern half of Timor, as well as an exclave to the west and a few offshore islands, constitute the country of Timor-Leste. The western portion of Timor and the remaining islands (including Flores) belong to Indonesia. Image courtesy of NASA." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_005.jpg" caption="Kuta Beach, Bali." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_004.jpg" caption="View from the cliffs at Pura Luhur Uluwatu, Bali." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_003.jpg" caption="The Sea Temple of Pura Luhur at Uluwatu in south Bali dates back to the 11th century." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_002.jpg" caption="The Sea Temple of Pura Luhur at Uluwatu in south Bali perches on some very impressive cliffs." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/id/images/ID_001.jpg" caption="The monkeys at Pura Luhur Uluwatu on Bali are notorious pickpockets." />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/eas/id_large_locator.gif" />
+		<image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/id-map.gif" />
+		<image source="http://www.worldatlas.com/webimage/flags/countrys/zzzflags/idlarge.gif" caption="Flag" />
+	</images>
+	<background>
+		The Dutch began to colonize Indonesia in the early 17th century; Japan occupied the islands from 1942 to 1945. Indonesia declared its independence shortly before Japan's surrender, but it required four years of sometimes brutal fighting, intermittent negotiations, and UN mediation before the Netherlands agreed to transfer sovereignty in 1949. A period of sometimes unruly parliamentary democracy ended in 1957 when President SOEKARNO declared martial law and instituted "Guided Democracy." After an abortive coup in 1965 by alleged communist sympathizers, SOEKARNO was gradually eased from power. From 1967 until 1988, President SUHARTO ruled Indonesia with his "New Order" government. After rioting toppled SUHARTO in 1998, free and fair legislative elections took place in 1999. Indonesia is now the world's third most populous democracy, the world's largest archipelagic state, and the world's largest Muslim-majority nation. Current issues include: alleviating poverty, improving education, preventing terrorism, consolidating democracy after four decades of authoritarianism, implementing economic and financial reforms, stemming corruption, reforming the criminal justice system, holding the military and police accountable for human rights violations, addressing climate change, and controlling infectious diseases, particularly those of global and regional importance. In 2005, Indonesia reached a historic peace agreement with armed separatists in Aceh, which led to democratic elections in Aceh in December 2006. Indonesia continues to face low intensity armed resistance in Papua by the separatist Free Papua Movement.
+	</background>
+
+	<geography coordinate-s="5 00" coordinate-e="120 00">
+		<location value="Southeastern Asia, archipelago between the Indian Ocean and the Pacific Ocean" />
+		<map-references value="Southeast Asia" />
+		<area land="1811569" water="93000" unit="sq km" />
+		<area-comparative value="slightly less than three times the size of Texas" area-comparison-map="https://www.cia.gov/library/publications/the-world-factbook/graphics/areacomparison/ID_area.jpg" />
+		<land-boundaries>
+			<border-countries unit="km">
+				<state name="Timor-Leste" total="253" />
+				<state name="Malaysia" total="1881" />
+				<state name="Papua New Guinea" total="824" />
+			</border-countries>
+		</land-boundaries>
+		<maritime-claims value="measured from claimed archipelagic straight baselines" territorial-sea="12" exclusive-economic-zone="200" unit="nm" />
+		<climate value="tropical; hot, humid; more moderate in highlands" />
+		<terrain value="mostly coastal lowlands; larger islands have interior mountains" />
+		<elevation mean-elevation="367" lowest-point="Indian Ocean, 0" highest-point="Puncak Jaya, 4,884" unit="m" />
+		<natural-resources value="petroleum, tin, natural gas, nickel, timber, bauxite, copper, fertile soils, coal, gold, silver" />
+		<land-use arable-land="13" permanent-crops="12.1" permanent-pasture="6.1" forest="51.7" other="17.1" unit="%" />
+		<irrigated-land value="67,220 sq km" />
+		<natural-hazards value="occasional floods; severe droughts; tsunamis; earthquakes; volcanoes; forest fires">
+			<volcanism>
+				Indonesia contains the most volcanoes of any country in the world - some 76 are historically active; significant volcanic activity occurs on Java, Sumatra, the Sunda Islands, Halmahera Island, Sulawesi Island, Sangihe Island, and in the Banda Sea; Merapi (elev. 2,968 m), Indonesia's most active volcano and in eruption since 2010, has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; other notable historically active volcanoes include Agung, Awu, Karangetang, Krakatau (Krakatoa), Makian, Raung, and Tambora
+			</volcanism>
+		</natural-hazards>
+		<environment current-issues="deforestation; water pollution from industrial wastes, sewage; air pollution in urban areas; smoke and haze from forest fires" party-to="Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands" not-ratified="Marine Life Conservation" />
+		<note>
+			archipelago of 17,508 islands, some 6,000 of which are inhabited (Indonesia is the world's largest country comprised solely of islands); straddles the equator; strategic location astride or along major sea lanes from the Indian Ocean to the Pacific Ocean; despite having the fourth largest population in the world, Indonesia is the most heavily forested region on earth after the Amazon
+		</note>
+	</geography>
+	<people-society>
+		<people>258316051</people>
+		<nationality noun="Indonesian(s)" adjective="Indonesian" />
+		<ethnic-groups>
+			<ethnic-group percentage="40.1">Javanese</ethnic-group>
+			<ethnic-group percentage="15.5">Sundanese</ethnic-group>
+			<ethnic-group percentage="3.7">Malay</ethnic-group>
+			<ethnic-group percentage="3.6">Batak</ethnic-group>
+			<ethnic-group percentage="3">Madurese</ethnic-group>
+			<ethnic-group percentage="2.9">Betawi</ethnic-group>
+			<ethnic-group percentage="2.7">Minangkabau</ethnic-group>
+			<ethnic-group percentage="2.7">Buginese</ethnic-group>
+			<ethnic-group percentage="2">Bantenese</ethnic-group>
+			<ethnic-group percentage="1.7">Banjarese</ethnic-group>
+			<ethnic-group percentage="1.7">Balinese</ethnic-group>
+			<ethnic-group percentage="1.4">Acehnese</ethnic-group>
+			<ethnic-group percentage="1.4">Dayak</ethnic-group>
+			<ethnic-group percentage="1.3">Sasak</ethnic-group>
+			<ethnic-group percentage="1.2">Chinese</ethnic-group>
+			<ethnic-group percentage="15">Other</ethnic-group>
+		</ethnic-groups>
+		<languages note="more than 700 languages are used in Indonesia">
+			<language>
+				Bahasa Indonesia (official, modified form of Malay)
+			</language>
+			<language>
+				English
+			</language>
+			<language>
+				Dutch
+			</language>
+			<language>
+				local dialects (of which the most widely spoken is Javanese)
+			</language>
+		</languages>
+		<religions>
+			<religion percentage="87.2">Muslim</religion>
+			<religion percentage="7">Christian</religion>
+			<religion percentage="2.9">Roman Catholic</religion>
+			<religion percentage="1.7">Hindu</religion>
+			<religion percentage="0.9">Other (includes Buddhist and Confucian)</religion>
+			<religion percentage="0.4">unspecified</religion>
+		</religions>
+		<age-structure image="https://www.cia.gov/library/publications/the-world-factbook/graphics/population/ID_popgraph%202016.bmp" image-title="Population pyramid">
+			<structure structure="0-14" percentage="25.42" male="22397086" female="21604985" />
+			<structure structure="15-24" percentage="17.03" male="33435020" female="32224706" />
+			<structure structure="25-54" percentage="42.35" male="55857415" female="53543682" />
+			<structure structure="55-64" percentage="8.4" male="9918897" female="11790016" />
+			<structure structure="65-over" percentage="6.79" male="7630251" female="9913993" />
+		</age-structure>
+		<dependency-ratios unit="%" youth="41.2" elderly="7.7" potential-support="13" />
+		<median-age male="29.3" female="30.5" unit="years" />
+		<population-growth-rate>
+			0.89%
+		</population-growth-rate>
+		<birth-rate>
+			16.4 births/1,000 population
+		</birth-rate>
+		<death-rate>
+			6.4 deaths/1,000 population
+		</death-rate>
+		<net-migration-rate>
+			-1.2 migrant(s)/1,000 population
+		</net-migration-rate>
+		<urbanization>
+			<urban-population>
+				53.7% of total population
+			</urban-population>
+			<rate-of-urbanization>
+				2.69% annual rate of change
+			</rate-of-urbanization>
+		</urbanization>
+		<major-urban-areas unit="million">
+			<areas population="10.323">JAKARTA (capital)</areas>
+			<areas population="2.853">Surabaya</areas>
+			<areas population="2.544">Bandung</areas>
+			<areas population="2.204">Medan</areas>
+			<areas population="1.63">Semarang</areas>
+			<areas population="1.489">Makassar</areas>
+		</major-urban-areas>
+		<sex-ratio total-population="1" unit="male(s)/female">
+			<ratio value="1.05">
+				at birth
+			</ratio>
+			<ratio value="1.04">
+				0-14
+			</ratio>
+			<ratio value="1.04">
+				15-24
+			</ratio>
+			<ratio value="1.04">
+				25-54
+			</ratio>
+			<ratio value="0.84">
+				55-64
+			</ratio>
+			<ratio value="0.77">
+				65-over
+			</ratio>
+		</sex-ratio>
+		<mothers-age-birth age="22.8" note="median age at first birth among women 25-29" />
+		<maternal-mortality-rate value="126 deaths/100,000 live births" />
+		<infant-mortality-rate unit="deaths/1,000 live births" male="27.5" female="19.2" />
+		<life-expectancy-at-birth unit="years" male="70.1" female="75.5" />
+		<total-fertility-rate value="2.13 children born/woman" />
+		<contraceptive-rate value="61.9%" />
+		<health-expenditures value="2.8% of GDP" />
+		<physicians-density value="0.2 physicians/1,000 population" />
+		<hospital-bed-density value="0.9 beds/1,000 population" />
+		<drinking-water-source unit="% of population">
+			<improved urban="94.2" rural="79.5" total="87.4" />
+			<unimproved urban="5.8" rural="20.5" total="12.6" />
+		</drinking-water-source>
+		<sanitation-facility-access unit="% of population">
+			<improve urban="72.3" rural="47.5" total="60.8" />
+			<unimprove urban="27.7" rural="52.5" total="39.2" />
+		</sanitation-facility-access>
+		<hiv-aids>
+			<rate value="0.48%" />
+			<living-with value="692800" />
+			<deaths value="35300" />
+		</hiv-aids>
+		<major-infections-deseases degree-of-risk="very high">
+			<desease>bacterial diarrhea</desease>
+			<desease>hepatitis A</desease>
+			<desease>typhoid fever</desease>
+			<desease>dengue fever</desease>
+			<desease>malaria</desease>
+		</major-infections-deseases>
+		<obesity percentage="5.7" />
+		<children-underweight description="under the age of 5 years" percentage="19.9" />
+		<education-expenditures value="3.3% of GDP" />
+		<literacy unit="%" definition="age 15 and over can read and write" male="96.3" female="91.5" />
+		<school-life unit="years" total="13" male="13" female="13" description="primary to tertiary education" />
+		<child-labor description="children ages 5-14" value="4026285" percentage="7" note="data represent children ages 5-17" />
+		<unemployment description="youth ages 15-24" unit="%" total="31.3" male="19.5" female="21.4" />
+	</people-society>
+	<government type="presidential republic">
+		<country-name long-form="Republic of Indonesia" short-form="Indonesia" local-long-form="Republik Indonesia" local-short-form="Indonesia" former="Netherlands East Indies, Dutch East Indies" etymology='the name is an 18th-century construct of two Greek words, "Indos" (India) and "nesoi" (islands), meaning "Indian islands"' />
+		<capital coordinate-e="106 49" coordinate-s="6 10" time="UTC+7" note="Indonesia has three time zones">
+			Jakarta
+		</capital>
+		<administrative-divisions note="following the implementation of decentralization beginning on 1 January 2001, regencies and municipalities have become the key administrative units responsible for providing most government services">
+			31 provinces (provinsi-provinsi, singular - provinsi), 1 autonomous province*, 1 special region** (daerah-daerah istimewa, singular - daerah istimewa), and 1 national capital district*** (daerah khusus ibukota); Aceh*, Bali, Banten, Bengkulu, Gorontalo, Jakarta Raya***, Jambi, Jawa Barat (West Java), Jawa Tengah (Central Java), Jawa Timur (East Java), Kalimantan Barat (West Kalimantan), Kalimantan Selatan (South Kalimantan), Kalimantan Tengah (Central Kalimantan), Kalimantan Timur (East Kalimantan), Kalimantan Utara (North Kalimantan), Kepulauan Bangka Belitung (Bangka Belitung Islands), Kepulauan Riau (Riau Islands), Lampung, Maluku, Maluku Utara (North Maluku), Nusa Tenggara Barat (West Nusa Tenggara), Nusa Tenggara Timur (East Nusa Tenggara), Papua, Papua Barat (West Papua), Riau, Sulawesi Barat (West Sulawesi), Sulawesi Selatan (South Sulawesi), Sulawesi Tengah (Central Sulawesi), Sulawesi Tenggara (Southeast Sulawesi), Sulawesi Utara (North Sulawesi), Sumatera Barat (West Sumatra), Sumatera Selatan (South Sumatra), Sumatera Utara (North Sumatra), Yogyakarta**
+		</administrative-divisions>
+		<independence date="17 August 1945" />
+		<national-holiday>
+			<holiday date="17 August" name="Independence Day" />
+		</national-holiday>
+		<constitution>
+			drafted July to August 1945, effective 17 August 1945, abrogated by 1949 and 1950 constitutions, 1945 constitution restored 5 July 1959; amended several times, last in 2002; note - an amendment on "national character building and national consciousness awareness" was pending parliamentary review in early 2016
+		</constitution>
+		<legal-system>
+			civil law system based on the Roman-Dutch model and influenced by customary law
+		</legal-system>
+		<international-law>
+			has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt
+		</international-law>
+		<citizenship by-birth="no" by-descent-only="at least one parent must be a citizen of Indonesia" dual-citizenship-recognized="no" residency-requirement-for-naturalization="5 continuous years" />
+		<suffrage>
+			17 years of age; universal and married persons regardless of age
+		</suffrage>
+		<executive-branch>
+			<chief-of-state value="President Joko WIDODO (since 20 October 2014); Vice President Jusuf KALLA (since 20 October 2014); note - the president is both chief of state and head of government" />
+			<head-of-government value="President Joko WIDODO (since 20 October 2014); Vice President Jusuf KALLA (since 20 October 2014)" />
+			<cabinet value="Cabinet appointed by the president" />
+			<elections-appointments value="president and vice president directly elected by absolute majority popular vote for a 5-year term (eligible for a second term); election last held on 9 July 2014 (next to be held in 2019)" />
+			<election-results value="Joko WiDODO elected president; percent of vote - Joko WIDODO (PDI-P) 53.2%, PRABOWO Subianto (GERINDRA) 46.8%" />
+		</executive-branch>
+		<legislative-branch>
+			<description>
+				bicameral People's Consultative Assembly or Majelis Permusyawaratan Rakyat consists of the Regional Representative Council or Dewan Perwakilan Daerah (132 seats; non-partisan members directly elected in multi-seat constituencies by proportional representation vote to serve 5-year terms) and the House of Representatives or Dewan Perwakilan Rakyat (560 seats; members directly elected in multi-seat constituencies by single non-transferable vote to serve 5-year terms)
+			</description>
+			<legislative-note>
+				29 other parties received less than the 2.5% vote threshold and failed to win so did not obtain any seats; because of election rules, the number of seats won does not always follow the percentage of votes received by parties
+			</legislative-note>
+			<elections>last held on 9 April 2014 (next to be held in 2019)</elections>
+			<election-result>
+				House of Representatives - percent of vote by party - PDI-P 19%, Golkar 15%, Gerindra 12%, PD 10%, PKB 9%, PAN 8%, PKS 7%, NasDem 7%, PPP 7%, Hanura 5%; seats by party - PDI-P 109, Golkar 91, Gerindra 73, PD 61, PAN 49, PKB 47, PKS 40, NasDem 35, PPP 39, Hanura 16
+			</election-result>
+		</legislative-branch>
+		<judicial-branch>
+			<highest-court>
+				Supreme Court or Mahkamah Agung (51 judges divided into 8 chambers); Constitutional Court or Mahkamah Konstitusi (consists of 9 judges)
+			</highest-court>
+			<judge-selection>
+				Supreme Court judges nominated by Judicial Commission, appointed by president with concurrence of parliament; judges serve until retirement at age 65; Constitutional Court judges - 3 nominated by president, 3 by Supreme Court, and 3 by parliament; judges appointed by the president; judges serve until mandatory retirement at age 70
+			</judge-selection>
+			<subordinate-courts>High Courts of Appeal, district courts, religious courts</subordinate-courts>
+		</judicial-branch>
+		<political-parties>
+			<party leader="Susilo Bambang YUDHOYONO" name="Democrat Party" short="PD" />
+			<party leader="Aburizal BAKRIE" name="Functional Groups Party" short="GOLKAR" />
+			<party leader="PRABOWO Subianto Djojohadikusumo" name="Great Indonesia Movement Party" short="GERINDRA" />
+			<party leader="MEGAWATI Sukarnoputri" name="Indonesia Democratic Party-Struggle" short="PDI-P" />
+			<party leader="Muhaiman ISKANDAR" name="National Awakening Party" short="PKB" />
+			<party leader="Hatta RAJASA" name="National Mandate Party" short="PAN" />
+			<party leader="WIRANTO" name="People's Conscience Party" short="HANURA" />
+			<party leader="Anis MATTA" name="Prosperous Justice Party" short="PKS" />
+			<party leader="NA" name="United Development Party" short="PPP" />
+		</political-parties>
+		<political-pressure>
+			Commission for the "Disappeared" and Victims of Violence or KontraS
+			Indonesia Corruption Watch or ICW
+			Indonesian Forum for the Environment or WALHI
+		</political-pressure>
+		<international-participation-organization>
+			ADB, APEC, ARF, ASEAN, BIS, CD, CICA (observer), CP, D-8, EAS, EITI (compliant country), FAO, G-11, G-15, G-20, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSTAH, MONUSCO, NAM, OECD (Enhanced Engagement, OIC, OPCW, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNIFIL, UNISFA, UNMIL, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO
+		</international-participation-organization>
+		<diplomatic-representation>
+			<in-us chief-of-commision="Ambassador Budi BOWOLEKSONO" chancery="2020 Massachusetts Avenue NW, Washington, DC 20036" telephone="[1] (202) 775-5200" fax="[1] (202) 775-5365" consulate-general="Chicago, Houston, Los Angeles, New York, San Francisco" />
+			<from-us chief-of-commision="Ambassador Robert O. BLAKE, Jr." embassy="Jalan Medan Merdeka Selatan 3-5, Jakarta 10110" mailing-address="Unit 8129, Box 1, FPO AP 96520" telephone="[62] (21) 3435-9000" fax="[62] (21) 386-2259" consulate-general="Surabaya" consulate="Medan" consular-agency="Bali" />
+		</diplomatic-representation>
+		<flag description="two equal horizontal bands of red (top) and white; the colors derive from the banner of the Majapahit Empire of the 13th-15th centuries; red symbolizes courage, white represents purity" note="similar to the flag of Monaco, which is shorter; also similar to the flag of Poland, which is white (top) and red" />
+		<national-symbols symbol="garuda (mythical bird)" national-colors="red, white" />
+		<national-anthem name='"Indonesia Raya" (Great Indonesia)' lyrics="Wage Rudolf SOEPRATMAN" note="adopted 1945" source="https://www.cia.gov/library/publications/the-world-factbook/anthems/ID.mp3" />
+	</government>
+	<economy>
+		<overview>
+			Indonesia, the largest economy in Southeast Asia, has seen a slowdown in growth since 2012, mostly due to the end of the commodities export boom. During the global financial crisis, Indonesia outperformed its regional neighbors and joined China and India as the only G20 members posting growth. Indonesia’s annual budget deficit is capped at 3% of GDP, and the Government of Indonesia lowered its debt-to-GDP ratio from a peak of 100% shortly after the Asian financial crisis in 1999 to less than 25% today. Fitch and Moody's upgraded Indonesia's credit rating to investment grade in December 2011.
+			Indonesia still struggles with poverty and unemployment, inadequate infrastructure, corruption, a complex regulatory environment, and unequal resource distribution among its regions. President Joko WIDODO - elected in July 2014 – seeks to develop Indonesia’s maritime resources and pursue other infrastructure development, including significantly increasing its electrical power generation capacity. Fuel subsidies were significantly reduced in early 2015, a move which has helped the government redirect its spending to development priorities. Indonesia, with the nine other ASEAN members, will continue to move towards participation in the ASEAN Economic Community, though full implementation of economic integration has not yet materialized.
+		</overview>
+		<gdps note="data are in 2015 US dollars" exchange-rate="$859 billion">
+			<gdp to="2015" unit="$" value="trillion">2.842</gdp>
+			<gdp to="2014" unit="$" value="trillion">2.712</gdp>
+			<gdp to="2013" unit="$" value="trillion">2.582</gdp>
+			<real-growth-rate unit="%">
+				<growth-rate to="2015">4.8</growth-rate>
+				<growth-rate to="2014">5</growth-rate>
+				<growth-rate to="2013">5.6</growth-rate>
+			</real-growth-rate>
+			<per-capita unit="$" note="data are in 2015 US dollars">
+				<capita to="2015">11100</capita>
+				<capita to="2014">10800</capita>
+				<capita to="2013">10400</capita>
+			</per-capita>
+			<gross-national unit="% of GDP">
+				<gross to="2015">32.5</gross>
+				<gross to="2014">31.5</gross>
+				<gross to="2013">30.7</gross>
+			</gross-national>
+			<composition-end-use unit="%" household="57" government="9.7" investment-capital="33.2" investment-inventories="-0.1" exports="21.1" imports="-20.9" />
+			<composition-end-sector unit="%" agriculture="14" industry="41.3" services="44.7" />
+		</gdps>
+		<agriculture products="rubber and similar products, palm oil, poultry, beef, forest products, shrimp, cocoa, coffee, medicinal herbs, essential oil, fish and its similar products, and spices" />
+		<industries value="petroleum and natural gas, textiles, automotive, electrical appliances, apparel, footwear, mining, cement, medical instruments and appliances, handicrafts, chemical fertilizers, plywood, rubber, processed food, jewelry, and tourism" />
+		<industrial-production rate="2.7%" />
+		<labor-force agriculture="38.9" industry="13.2" services="47.9" unit="%">122.4 million</labor-force>
+		<unemploy unit="%">
+			<u-rate to="2015">6.2</u-rate>
+			<u-rate to="2014">5.9</u-rate>
+		</unemploy>
+		<poverty-line percentage="11.3" />
+		<household lowest="3.4" highest="28.2" unit="%" />
+		<distribution-of-family>
+			<distribution to="2009">36.8</distribution>
+			<distribution to="2005">39.4</distribution>
+		</distribution-of-family>
+		<budget surplus-deficit="-2.5% of GDP" revenues="$112.6 billion" expenditures="$134.2 billion" />
+		<taxes value="13.1% of GDP" />
+		<public-debt unit="% of GDP">
+			<debt to="2015">28.4</debt>
+			<debt to="2014">25.9</debt>
+		</public-debt>
+		<fiscal-year value="calendar year" />
+		<inflation-rate unit="%">
+			<i-rate to="2015">6.4</i-rate>
+			<i-rate to="2014">6.4</i-rate>
+		</inflation-rate>
+		<bank-discount-rate note="this figure represents the 3-month SBI rate; the Bank of Indonesia has not employed the one-month SBI since September 2010" unit="%">
+			<b-rate to="2010">6.37</b-rate>
+			<b-rate to="2009">6.46</b-rate>
+		</bank-discount-rate>
+		<bank-lending-rate note="these figures represent the average annualized rate on working capital loans" unit="%">
+			<b-rate to="2015">12.66</b-rate>
+			<b-rate to="2014">12.61</b-rate>
+		</bank-lending-rate>
+		<stock-of-narrow-money unit="$" value="billion">
+			<money to="2015">76.5</money>
+			<money to="2014">75.74</money>
+		</stock-of-narrow-money>
+		<stock-of-broad-money unit="$" value="billion">
+			<money to="2014">348.6</money>
+			<money to="2013">305.8</money>
+		</stock-of-broad-money>
+		<stock-of-domestic-credit unit="$" value="billion">
+			<money to="2015">354.4</money>
+			<money to="2014">360.2</money>
+		</stock-of-domestic-credit>
+		<market-value unit="$" value="billion">
+			<money to="2015">396.8</money>
+			<money to="2014">390.1</money>
+			<money to="2013">360.4</money>
+		</market-value>
+		<current-account unit="$" value="billion">
+			<money to="2015">-17.76</money>
+			<money to="2014">-27.52</money>
+		</current-account>
+		<exports commodities="mineral fuels, animal or vegetable fats (includes palm oil), electrical machinery, rubber, machinery and mechanical appliance parts" unit="$" value="billion">
+			<money to="2015">148.4</money>
+			<money to="2014">175.3</money>
+			<partners>
+				<partner percentage="12">Japan</partner>
+				<partner percentage="10.8">US</partner>
+				<partner percentage="10">China</partner>
+				<partner percentage="8.4">Singapore</partner>
+				<partner percentage="7.8">India</partner>
+				<partner percentage="5.1">South Korea</partner>
+				<partner percentage="5.1">Malaysia</partner>
+			</partners>
+		</exports>
+		<imports commodities="mineral fuels, boilers, machinery, and mechanical parts, electric machinery, iron and steel, foodstuffs" unit="$" value="billion">
+			<money to="2015">135.1</money>
+			<money to="2014">168.3</money>
+			<partners>
+				<partner percentage="20.6">China</partner>
+				<partner percentage="12.6">Singapore</partner>
+				<partner percentage="9.3">Japan</partner>
+				<partner percentage="6">Malaysia</partner>
+				<partner percentage="5.9">South Korea</partner>
+				<partner percentage="5.7">Thailand</partner>
+				<partner percentage="5.3">US</partner>
+			</partners>
+		</imports>
+		<reserves unit="$" value="billion">
+			<money to="2015">105.9</money>
+			<money to="2014">111.9</money>
+		</reserves>
+		<debt-external unit="$" value="billion">
+			<money to="2015">316</money>
+			<money to="2015">293.4</money>
+		</debt-external>
+		<stock-of-investment unit="$" value="billion">
+			<at-home>
+				<money to="2015">271.8</money>
+				<money to="2014">253.1</money>
+			</at-home>
+			<abroad>
+				<money to="2015">33.32</money>
+				<money to="2014">24.05</money>
+			</abroad>
+		</stock-of-investment>
+		<exchange-rates description="Indonesian rupiah (IDR) per US dollar">
+			<money to="2015">13389.4</money>
+			<money to="2014">11865.2</money>
+			<money to="2013">11865.2</money>
+			<money to="2012">9386.63</money>
+			<money to="2012">8770.43</money>
+		</exchange-rates>
+	</economy>
+	<energy>
+		<electricity>
+			<e-access population-without="48700000" total="81%" urban-areas="94%" rural-areas="66%" />
+			<e-production value="216 billion kWh" />
+			<e-consuption value="195 billion kWh" />
+			<e-exports value="0 kWh" />
+			<e-imports value="9 million kWh" />
+			<e-generating-capacity value="55 million kWh" />
+			<e-fossil-fuels percentage="83.2" note="of total installed capacity" />
+			<e-sources percentage="5.8" note="of total installed capacity" />
+		</electricity>
+		<crude-oil>
+			<e-production value="785,900 bbl/day" />
+			<e-exports value="310,100 bbl/day" />
+			<e-imports value="463,000 bbl/day" />
+			<e-proved-reserves value="3.693 billion bbl" />
+		</crude-oil>
+		<petroleum-products>
+			<e-production value="926,300 bbl/day" />
+			<e-consuption value="1.688 million bbl/day" />
+			<e-exports value="81,950 bbl/day" />
+			<e-imports value="691,600 bbl/day" />
+		</petroleum-products>
+		<natural-gas>
+			<e-production value="73.45 billion cu m" />
+			<e-consuption value="41.72 billion cu m" />
+			<e-exports value="31.78 billion cu m" />
+			<e-imports value="1.8 billion cu m" />
+			<e-proved-reserves value="2.875 trillion cu m" />
+		</natural-gas>
+		<carbon-dioxide value="442 million Mt" />
+	</energy>
+	<communications>
+		<telephones>
+			<fixed total="22.386 million" />
+			<mobile total="338.426 million" />
+			<system>
+				<general-assessment>
+					domestic service includes an interisland microwave system, an HF radio police net, and a domestic satellite communications system; international service good
+				</general-assessment>
+				<domestic>
+					coverage provided by existing network has been expanded by use of over 200,000 telephone kiosks many located in remote areas; mobile-cellular subscribership growing rapidly
+				</domestic>
+				<international>
+					country code - 62; landing point for both the SEA-ME-WE-3 and SEA-ME-WE-4 submarine cable networks that provide links throughout Asia, the Middle East, and Europe; satellite earth stations - 2 Intelsat (1 Indian Ocean and 1 Pacific Ocean)
+				</international>
+			</system>
+		</telephones>
+		<broadcast-media>
+			mixture of about a dozen national TV networks - 2 public broadcasters, the remainder private broadcasters - each with multiple transmitters; more than 100 local TV stations; widespread use of satellite and cable TV systems; public radio broadcaster operates 6 national networks, as well as regional and local stations; overall, more than 700 radio stations with more than 650 privately operated
+		</broadcast-media>
+		<internet country-code=".id">
+			<users total="56.257 million" percentage="22" />
+		</internet>
+	</communications>
+	<transportation>
+		<national-air number-of-registered="29" inventory-of-registered="550" annual-passenger-traffic="88685767" annual-freight-traffic="747,473,207 mt-km" />
+		<civil-aircraft country-coude-prefix="PK" />
+		<airports>
+			<paved-runways>
+				<runway description="over 3,047 m" value="5" />
+				<runway description="2,438 to 3,047 m" value="21" />
+				<runway description="1,524 to 2,437 m" value="51" />
+				<runway description="914 to 1,523 m" value="72" />
+				<runway description="under 914 m" value="37" />
+			</paved-runways>
+			<unpaved-runways>
+				<runway description="1,524 to 2,437 m" value="4" />
+				<runway description="914 to 1,523 m" value="23" />
+				<runway description="under 914 m" value="460" />
+			</unpaved-runways>
+		</airports>
+		<heliports value="76" />
+		<pipelines>
+			condensate 1,064 km; condensate/gas 150 km; gas 11,702 km; liquid petroleum gas 119 km; oil 7,767 km; oil/gas/water 77 km; refined products 728 km; unknown 53 km; water 44 km
+		</pipelines>
+		<railways narrow-gauge="8,159 km 1.067-m gauge (565 km electrified)" note="4,816 km operational" />
+		<roadways unit="km" paved="283102" unpaved="213505" />
+		<waterways value="21,579 km" />
+		<merchant-marine>
+			<by-type>
+				bulk carrier 105, cargo 618, chemical tanker 69, container 120, liquefied gas 28, passenger 49, passenger/cargo 77, petroleum tanker 244, refrigerated cargo 6, roll on/roll off 12, specialized tanker 1, vehicle carrier 11
+			</by-type>
+			<foreign-owned>
+				69 (China 1, France 1, Greece 1, Japan 8, Jordan 1, Malaysia 1, Norway 3, Singapore 46, South Korea 2, Taiwan 1, UK 2, US 2)
+			</foreign-owned>
+			<registered-in-other-countries>
+				95 (Bahamas 2, Cambodia 2, China 2, Hong Kong 10, Liberia 4, Marshall Islands 1, Mongolia 2, Panama 10, Singapore 60, Tuvalu 1, unknown 1)
+			</registered-in-other-countries>
+		</merchant-marine>
+		<ports-terminals>
+			<major-seaports>
+				<seaport>Banjarmasin</seaport>
+				<seaport>Belawan</seaport>
+				<seaport>Kotabaru</seaport>
+				<seaport>Krueg Geukueh</seaport>
+				<seaport>Palembang</seaport>
+				<seaport>Panjang</seaport>
+				<seaport>Sungai Pakning</seaport>
+				<seaport>Tanjung Perak</seaport>
+				<seaport>Tanjung Priok</seaport>
+			</major-seaports>
+			<container-ports>
+				<port value="5617562">Tanjung Priok</port>
+			</container-ports>
+			<lng-terminals-export>
+				<terminal>Bontang</terminal>
+				<terminal>Tangguh</terminal>
+			</lng-terminals-export>
+			<lng-terminals-import>
+				<terminal>Arun</terminal>
+				<terminal>Lampung</terminal>
+				<terminal>West Java</terminal>
+			</lng-terminals-import>
+		</ports-terminals>
+		<note>
+			the International Maritime Bureau continues to report the territorial and offshore waters in the Strait of Malacca and South China Sea as high risk for piracy and armed robbery against ships; attacks have increased yearly since 2009; in 2014, 100 commercial vessels were attacked and 90 crew members taken hostage; hijacked vessels are often disguised and cargo diverted to ports in East Asia; crews have been murdered or cast adrift
+		</note>
+	</transportation>
+	<military-security>
+		<branches>
+			Indonesian Armed Forces (Tentara Nasional Indonesia, TNI): Army (TNI-Angkatan Darat (TNI-AD)), Navy (TNI-Angkatan Laut (TNI-AL); includes marines (Korps Marinir, KorMar), naval air arm), Air Force (TNI-Angkatan Udara (TNI-AU)), National Air Defense Command (Kommando Pertahanan Udara Nasional (Kohanudnas))
+		</branches>
+		<service-age>
+			18-45 years of age for voluntary military service, with selective conscription authorized; 2-year service obligation, with reserve obligation to age 45 (officers); Indonesian citizens only
+		</service-age>
+		<expenditures unit="% of GDP">
+			<expenditure value="0.78" to="2012" />
+			<expenditure value="0.67" to="2011" />
+			<expenditure value="0.78" to="2010" />
+		</expenditures>
+	</military-security>
+	<transnational-issues>
+		<disputes>
+			Indonesia has a stated foreign policy objective of establishing stable fixed land and maritime boundaries with all of its neighbors; three stretches of land borders with Timor-Leste have yet to be delimited, two of which are in the Oecussi exclave area, and no maritime or Exclusive Economic Zone (EEZ) boundaries have been established between the countries; many refugees from Timor-Leste who left in 2003 still reside in Indonesia and refuse repatriation; all borders between Indonesia and Australia have been agreed upon bilaterally, but a 1997 treaty that would settle the last of their maritime and EEZ boundary has yet to be ratified by Indonesia's legislature; Indonesian groups challenge Australia's claim to Ashmore Reef; Australia has closed parts of the Ashmore and Cartier Reserve to Indonesian traditional fishing and placed restrictions on certain catches; land and maritime negotiations with Malaysia are ongoing, and disputed areas include the controversial Tanjung Datu and Camar Wulan border area in Borneo and the maritime boundary in the Ambalat oil block in the Celebes Sea; Indonesia and Singapore continue to work on finalizing their 1973 maritime boundary agreement by defining unresolved areas north of Indonesia's Batam Island; Indonesian secessionists, squatters, and illegal migrants create repatriation problems for Papua New Guinea; maritime delimitation talks continue with Palau; EEZ negotiations with Vietnam are ongoing, and the two countries in Fall 2011 agreed to work together to reduce illegal fishing along their maritime boundary
+		</disputes>
+		<refugees idps="6,100 (inter-communal, inter-faith, and separatist violence between 1998 and 2004 in Aceh and Papua; religious attacks and land conflicts in 2012 and 2013; most IDPs in Aceh, Maluku, East Nusa Tengarra)" />
+		<illict-drugs>
+			illicit producer of cannabis largely for domestic use; producer of methamphetamine and ecstasy; President WIDODO's war on drugs has led to an increase in death sentences and executions, particularly of foreign drug traffickers
+		</illict-drugs>
+	</transnational-issues>
+</country>

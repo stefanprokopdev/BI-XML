@@ -1,0 +1,118 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Mauritius | Urbanization</title>
+      <link rel="stylesheet" href="style/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style/css/bootstrap-theme.min.css"><script type="text/javascript" src="style/js/jquery-1.12.4.min.js"></script><script type="text/javascript" src="style/js/bootstrap.min.js"></script><script src="https://code.highcharts.com/highcharts.js"></script><script src="https://code.highcharts.com/modules/data.js"></script><script src="https://code.highcharts.com/modules/drilldown.js"></script><script>
+					$(function () {
+					    Highcharts.chart('container', {
+					        chart: {
+					            type: 'column'
+					        },
+					        title: {
+					            text: 'Major Urban Areas'
+					        },
+					        subtitle: {
+					            text: 'Major Urban Areas'
+					        },
+					        xAxis: {
+					            type: 'category'
+					        },
+					        yAxis: {
+					            title: {
+					                text: 'Major Urban Areas'
+					            }
+
+					        },
+					        legend: {
+					            enabled: false
+					        },
+					        plotOptions: {
+					            series: {
+					                borderWidth: 0,
+					                dataLabels: {
+					                    enabled: true,
+					                    format: '{point.y:.1f} k'
+					                }
+					            }
+					        },
+
+					        tooltip: {
+					            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+					            pointFormat: '<span style="color:">{point.name} k</span>: <b>{point.y:.2f}</b> of total<br>'
+					        },
+
+					        series: [{
+					            name: 'Major Urban Areas',
+					            colorByPoint: true,
+					            data: [
+					            
+			
+		{
+            name: 'PORT LOUIS (capital)',
+            y: 135
+        },
+	
+		
+					            ]
+					        }],
+					    });
+					});
+				</script></head>
+   <body>
+      <div class="container">
+         <nav class="navbar navbar-inverse navbar-fixed-top" style="background: #4caf50; color: white;">
+            <div class="container-fluid">
+               <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a style="color: white;" class="navbar-brand" href="mu.html"><b>Mauritius</b></a></div>
+               <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-left">
+                     <li><a style="color: white;" href="index.html">index</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-images.html">images</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-background.html">background</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-geography.html">geography</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-people-society.html">people-society</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-government.html">government</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-economy.html">economy</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-energy.html">energy</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-communications.html">communications</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-transportation.html">transportation</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-military-security.html">military-security</a></li>
+                     	
+                     <li><a style="color: white;" href="mu-transnational-issues.html">transnational-issues</a></li>
+                     
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <h1 style="margin-top: 65px;">Urbanization</h1><a href="mu-people-society.html"><span class="glyphicon glyphicon-chevron-left"></span> Go Back</a><br><br><table class="table table-hover">
+            <tr>
+               <td><b>Urbanization:</b></td>
+               <td>
+                  <ul>
+                     <li><u>Urban Population: </u>
+                        				39.7% of total population
+                        			
+                     </li>
+                     <li><u>Rate of Urbanization: </u>
+                        				-0.08% annual rate of change
+                        			
+                     </li>
+                  </ul>
+               </td>
+            </tr>
+         </table>
+         <h1>Urbanization - Chart</h1>
+         <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+      </div>
+   </body>
+</html>
